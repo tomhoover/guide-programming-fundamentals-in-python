@@ -1,6 +1,6 @@
-#Github link to what they are building Programming Fundamentals in Python
+#Programming Fundamentals in Python
 
-2 hours
+Approximate time ~ 1 hour
 
 ##Introduction
 ###What is Python?
@@ -16,16 +16,15 @@ This guide will assume no programming knowledge. You will be using a tool called
 ###Choose your Pypet:
 Go ahead and choose a Pypet now so that we can begin! Feel free to customize your Pypet, but here are a few options. Try to keep you Pypet height limited to just one line for now as it will make the initial steps easier to follow.
 
-Pycat
-
+####Pycat
 
 (=^o.o^=)__
-Pymouse
 
+####Pymouse
 
 <:3 )~~~~
-Py? (you choose!)
 
+####Py? (you choose!)
 
 (^‘*m*’^)
 
@@ -33,16 +32,20 @@ Py? (you choose!)
 
 ###Nitrous.IO
 The first stage of our journey will be setting up a development environment which you can work in – your Nitrous.IO box. Nitrous.io is the faster way to get your Python development environment up and running. Not only is Nitrous an amazing tool but it is also free!
-Setting up Nitrous.IO
 
-Create a Nitrous.io Account.
-Create a Box and choose the Python/Django option. Once that’s complete you should click the IDE button to be taken to it.
-Now you have a powerful, cloud-based development environment that comes pre-installed with Python! Let's take a quick tour:
-In the left-most panel, you’ll see the File Browser. Here you can navigate the files in your home folder. At this point, you will just have the "workspace" folder and a README file introducing you to Nitrous.IO. When you have more files, you can open them in Nitrous.IO’s text editor by double clicking on them in the File Broswer.
-The middle panel is the Text Editor. This is where you can write and edit code.
-The right panel is for chatting if you’re using Nitrous.io in collaborative mode. Feel free to close this window for now by clicking the X in the upper right hand corner so you get more screen real estate.
-The bottom panel is your console for actually running your python file.
-Running Python for the first time!
+####Setting up Nitrous.IO:
+
+1. Create a Nitrous.io Account.
+2. Create a Box and choose the Python/Django option. Once that’s complete you should click the IDE button to be taken to it.
+3. Now you have a powerful, cloud-based development environment that comes pre-installed with Python! Let's take a quick tour:
+
+    - In the left-most panel, you’ll see the File Browser. Here you can navigate the files in your home folder. At this point, you will just have the "workspace" folder and a README file introducing you to Nitrous.IO. When you have more files, you can open them in Nitrous.IO’s text editor by double clicking on them in the File Broswer.
+    - The middle panel is the Text Editor. This is where you can write and edit code.
+    - The right panel is for chatting if you’re using Nitrous.io in collaborative mode. Feel free to close this window for now by clicking the X in the upper right hand corner so you get more screen real estate.
+    - The bottom panel is your console for actually running your python file.
+
+###Running Python for the first time!
+
 Let’s make your first python program! In Nitrous create a new file containing the following code.
 
 ```py
@@ -65,7 +68,7 @@ The Pypet you will create is going to have certain attributes. For example we ne
 name = 'Mr Fluffy'
 ```
 
-In this case, name is something called a string because 'Mr Fluffy' has quotations around it. A string is just a set of characters surrounded by quotations. Variables on the other hand do not have quotations. Let’s look at some additional data types.
+In this case, name is something called a '''string''' because 'Mr Fluffy' has quotations around it. A string is just a set of characters surrounded by quotations. Variables on the other hand do not have quotations. Let’s look at some additional data types.
 
 ```py
 weight = 9.5
