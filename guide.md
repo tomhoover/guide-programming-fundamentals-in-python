@@ -113,11 +113,11 @@ print 'Welome to Pypet!'
 
 GIF HERE?
 
-Call to Action - tweet a screenshot of your pypet [)@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world!
+Call to Action - tweet a screenshot of your pypet [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world!
 
 ##Feeding your Pypet - Functions and If Statements
 
-Now we are going learn how to “feed” your pypet using a Python function. A [function](http://www.tutorialspoint.com/python/python_functions.htm) is a block of organized, reusable code that is used to perform a single, related action. First we must define our function before we actually use it. This particular feed()function changes our pypet’s “hungry” attribute to False to show that it is no longer hungry.
+Now we are going learn how to “feed” your pypet using a Python function. A [function](http://www.tutorialspoint.com/python/python_functions.htm) is a block of organized, reusable code that is used to perform a single, related action. First we must define our function before we actually use it. This particular feed() function changes our pypet’s “hungry” attribute to False to show that it is no longer hungry.
 
 ```py
 def feed(pet):
@@ -133,7 +133,7 @@ def feed(pet):
 feed(cat)
 ```
 
-By calling feed(cat)we are passing the variable cat into the function in place of ‘pet’.
+By calling feed(cat) we are passing the variable cat into the function in place of ‘pet’.
 
 We should also increase the Pypet’s weight a bit since it has eaten. Floats and integers can be increased by using the following notation.
 
@@ -233,6 +233,8 @@ Call to Action - tweet a picture of your pypets [@Thinkful](https://twitter.com/
 This guide just shows you the beginning of what you can do with Python. If you enjoyed the work you’ve done here, go through any of the additional resources below. If you are stuck feel free to tweet [@Thinkful](https://twitter.com/thinkful) and we would love to help you. Also definitely tweet us a picture of your Pypet code! Feel free to customize any or all of your project and try new things. We have placed a final version of our Pypet [on github](https://github.com/TatianaTylosky/pypet/blob/master/pypet.py) if you would like to take a look at the code! Perhaps you want to keep track of health points or create a play() function?
 
 http://learnpythonthehardway.org/
+
+NEED MORE RESOURCES
 
 
 
