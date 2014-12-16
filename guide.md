@@ -62,7 +62,7 @@ Now type “python pypet.py” into your Nitrous console (in the bottom panel) a
 
 If you're stuck, watch the gif below or tweet [@Thinkful](https://twitter.com/thinkful). We'd love to help!
 
-ADD VIDEO AS GIF HERE
+[print statement example](http://i.imgur.com/kDyVy2I.gif)
 
 ##Creating your Pypet
 
