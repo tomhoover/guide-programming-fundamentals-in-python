@@ -57,23 +57,30 @@ Creating your Pypet
 
 The Pypet you will create is going to have certain attributes. For example we need to give it a name. Below we have set a variable called name equal to 'Mr Fluffy'.  In programming variables simply store data for us, but there are a variety of different types of data.
 
+```py
 name = 'Mr Fluffy'
+```
 
 In this case, name is something called a string because 'Mr Fluffy' has quotations around it. A string is just a set of characters surrounded by quotations. Variables on the other hand do not have quotations. Let’s look at some additional data types.
 
+```py
 weight = 9.5
 hungry = False
+```
 
 A Boolean stores a value of either True or False. A float is a number that can have decimals. An integer is a whole number. Now for fun we will include another variable that is a string containing “photo” of our pet!
 
+```py
 name = 'Mr Fluffy'
 hungry = False
 weight = 9.5
 toys = 5
 photo = '(=^o.o^=)__'
+```
 
 We need a way to tell Python that all of these variables represent one cat. One way for us to do this is to use a Python dictionary. Dictionaries are a way of storing multiple variables that have different values.
 
+```py
 print 'Welome to Pypet!'
 
 cat = {
@@ -85,10 +92,13 @@ cat = {
 }
 
 print cat
+```
 
 Here we’ve created an empty dictionary called cat = {}. Then on each subsequent line we add new cat attributes! Let’s go ahead and add a print statement to see our first pypet! Feel free to set different attributes than this example!
 
+```py
 print 'Welome to Pypet!'
+```
 
 GIF HERE?
 
@@ -98,26 +108,33 @@ Feeding your Pypet - Functions and If Statements
 
 Now we are going learn how to “feed” your pypet using a Python function. A function is a block of organized, reusable code that is used to perform a single, related action. First we must define our function before we actually use it. This particular feed()function changes our pypet’s “hungry” attribute to False to show that it is no longer hungry.
 
+```py
 def feed(pet):
 		pet['hungry'] = False
+```
 
 Now that you have defined your function you can actually use it by adding feed(cat) to your code.
 
+```py
 def feed(pet):
 		pet['hungry'] = False
 
 feed(cat)
+```
 
 By calling feed(cat)we are passing the variable cat into the function in place of ‘pet’.
 
 We should also increase the Pypet’s weight a bit since it has eaten. Floats and integers can be increased by using the following notation.
 
+```py
 def feed(cat):
 		cat['hungry'] = False
 		cat['weight'] = cat['weight'] + 1
+```
 
 Try setting your original pypet’s hungry variable to True and then call the function by writing feed(cat) at the bottom like so:
 
+```py
 print 'Welome to Pypet!'
 
 cat = {
@@ -137,11 +154,13 @@ def feed(pet):
 feed(cat)
 
 print cat
+```
 
 When the cat is printed out the second time his weight attribute will have increased. But what if our pypet is not hungry? We need to take into account whether or not the hungry variable is set to True or False.
 
 In order to know whether our Pypet is hungry, we are going to use an if statement. If the Pypet is hungry the program will set his hungry variable to False and increase his weight. If the Pypet is not hungry then it will print ‘The Pypet is not hungry! in the console. Try feeding the cat twice, to make sure that the if statement worked
 
+```py
 print 'Welome to Pypet!'
 
 cat = {
@@ -163,6 +182,7 @@ print cat
 feed(cat)
 feed(cat)
 print cat
+```
 
 YOU CAN ADD THE CONCATENATE BIT IF YOU HAVE ROOM.
 
@@ -171,6 +191,7 @@ Friends for your Pypet! - For Loops and Lists
 
 Let’s create another Pypet!
 
+```py
 mouse = {
   'name': 'Mouse',
   'hungry': False,
@@ -178,16 +199,21 @@ mouse = {
   'number_of_toys': 6,
   'photo': '<:3 )~~~~',
 }
+```
 
 Now that we have more than one Pypet we can store them in a Python list. A list is another data type; list stores variables in order like so:
 
+```py
 pets = [cat, mouse]
+```
 
 What if we want to feed all the pets in our list? If we want to run a function on each variable in a list we can use something in Python called a for loop. The for loop in Python has the ability to iterate over the items of any sequence, such as a list or a string.
 
+```py
 for pet in pets:
 	feed(pet)
 print pet
+```
 
 Call to Action - tweet a picture of your pypets @Thinkful so we can share your creation with the world
 
