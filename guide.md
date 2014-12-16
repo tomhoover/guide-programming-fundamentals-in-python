@@ -6,10 +6,10 @@ Approximate time ~ 1 hour
 ###What is Python?
 Python is a scripting programming language known for both its simplicity and wide breadth of applications. For this reason it is considered one of the best languages for beginners. Used for everything from Web Development to Scientific Computing, Python is referred to as a “general purpose” language by the greater programming community.
 
-Many Python programmers (aka “Pythonistas”) love this language because it maintains a certain philosophy of best practices, described in Tim Peter’s famous “Zen of Python.” There is a large Python community both off and online that is welcoming and supportive of beginners, and you can find a plethora of additional materials in the resources section of this guide.
+Many Python programmers (aka “Pythonistas”) love this language because it maintains a certain philosophy of best practices, described in [Tim Peter’s famous “Zen of Python”](https://www.python.org/dev/peps/pep-0020/). There is a large Python community both off and online that is welcoming and supportive of beginners, and you can find a plethora of additional materials in the resources section of this guide.
 
 ###About this Guide:
-This guide will follow Thinkful’s project-driven learning philosophy, i.e. ”all concepts are taught within the context of that project and students learn as they build”. You will be creating a “Pypet” (“Python-pet”) of your choosing. As you learn new Python concepts you will be able to add new features to your Pypet. This way you will be able to put your new knowledge to use right away and actually create a project in Python.
+This guide will follow Thinkful’s [project-driven learning philosophy](http://blog.thinkful.com/post/100829199278/project-based-v-s-project-driven-learning), i.e. ”all concepts are taught within the context of that project and students learn as they build”. You will be creating a “Pypet” (“Python-pet”) of your choosing. As you learn new Python concepts you will be able to add new features to your Pypet. This way you will be able to put your new knowledge to use right away and actually create a project in Python.
 
 This guide will assume no programming knowledge. You will be using a tool called Nitrous to set up your developer environment which will make it very easy to quickly get started. After this guide you will feel comfortable using Python fundamentals and have a "Pypet" to show off!
 
@@ -35,7 +35,7 @@ The first stage of our journey will be setting up a development environment whic
 
 ####Setting up Nitrous.IO:
 
-1. Create a Nitrous.io Account.
+1. Create a [Nitrous.io](https://www.nitrous.io/) Account.
 2. Create a Box and choose the Python/Django option. Once that’s complete you should click the IDE button to be taken to it.
 3. Now you have a powerful, cloud-based development environment that comes pre-installed with Python! Let's take a quick tour:
 
@@ -56,7 +56,7 @@ You’ve just written your first print statement. Go ahead and save the file as 
 
 Now type “python pypet.py” into your Nitrous console and hit enter. The console will now print out “Welcome to Pypet!” This print statement is a python function for printing in the console.
 
-Are you stuck? Look at the gif below or tweet @Thinkful and we would love to help.
+Are you stuck? Look at the gif below or tweet [@Thinkful](https://twitter.com/thinkful) and we would love to help.
 
 ADD VIDEO AS GIF HERE
 
@@ -109,11 +109,11 @@ print 'Welome to Pypet!'
 
 GIF HERE?
 
-Call to Action - tweet a screenshot of your pypet @Thinkful so we can share your creation with the world!
+Call to Action - tweet a screenshot of your pypet [)@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world!
 
 ##Feeding your Pypet - Functions and If Statements
 
-Now we are going learn how to “feed” your pypet using a Python function. A function is a block of organized, reusable code that is used to perform a single, related action. First we must define our function before we actually use it. This particular feed()function changes our pypet’s “hungry” attribute to False to show that it is no longer hungry.
+Now we are going learn how to “feed” your pypet using a Python function. A [function](http://www.tutorialspoint.com/python/python_functions.htm) is a block of organized, reusable code that is used to perform a single, related action. First we must define our function before we actually use it. This particular feed()function changes our pypet’s “hungry” attribute to False to show that it is no longer hungry.
 
 ```py
 def feed(pet):
@@ -208,13 +208,13 @@ mouse = {
 }
 ```
 
-Now that we have more than one Pypet we can store them in a Python list. A list is another data type; list stores variables in order like so:
+Now that we have more than one Pypet we can store them in a Python list. A [list](http://www.tutorialspoint.com/python/python_lists.htm) is another data type; list stores variables in order like so:
 
 ```py
 pets = [cat, mouse]
 ```
 
-What if we want to feed all the pets in our list? If we want to run a function on each variable in a list we can use something in Python called a for loop. The for loop in Python has the ability to iterate over the items of any sequence, such as a list or a string.
+What if we want to feed all the pets in our list? If we want to run a function on each variable in a list we can use something in Python called a for loop. The [for loop](http://www.tutorialspoint.com/python/python_for_loop.htm) in Python has the ability to iterate over the items of any sequence, such as a list or a string.
 
 ```py
 for pet in pets:
@@ -222,11 +222,11 @@ for pet in pets:
 print pet
 ```
 
-Call to Action - tweet a picture of your pypets @Thinkful so we can share your creation with the world
+Call to Action - tweet a picture of your pypets [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world
 
 ##Conclusion & Resources
 
-This guide just shows you the beginning of what you can do with Python. If you enjoyed the work you’ve done here, go through any of the additional resources below. If you are stuck feel free to tweet @Thinkful and we would love to help you. Also definitely tweet us a picture of your Pypet code! Feel free to customize any or all of your project and try new things. We have placed a final version of our Pypet [on github](https://github.com/TatianaTylosky/pypet/blob/master/pypet.py) if you would like to take a look at the code! Perhaps you want to keep track of health points or create a play() function?
+This guide just shows you the beginning of what you can do with Python. If you enjoyed the work you’ve done here, go through any of the additional resources below. If you are stuck feel free to tweet [@Thinkful](https://twitter.com/thinkful) and we would love to help you. Also definitely tweet us a picture of your Pypet code! Feel free to customize any or all of your project and try new things. We have placed a final version of our Pypet [on github](https://github.com/TatianaTylosky/pypet/blob/master/pypet.py) if you would like to take a look at the code! Perhaps you want to keep track of health points or create a play() function?
 
 http://learnpythonthehardway.org/
 
