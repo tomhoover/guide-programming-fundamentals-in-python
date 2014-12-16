@@ -42,7 +42,9 @@ The bottom panel is your console for actually running your python file.
 Running Python for the first time!
 Let’s make your first python program! In Nitrous create a new file containing the following code.
 
+```py
 print 'Welome to Pypet!'
+```
 
 You’ve just written your first print statement. Go ahead and save the file as “pypet.py”. 
 
