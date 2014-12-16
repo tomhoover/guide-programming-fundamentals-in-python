@@ -68,7 +68,7 @@ The Pypet you will create is going to have certain attributes. For example we ne
 name = 'Mr Fluffy'
 ```
 
-In this case, name is something called a '''string''' because 'Mr Fluffy' has quotations around it. A string is just a set of characters surrounded by quotations. Variables on the other hand do not have quotations. Let’s look at some additional data types.
+In this case, name is something called a **string** because 'Mr Fluffy' has quotations around it. A **string** is just a set of characters surrounded by quotations. Variables on the other hand do not have quotations. Let’s look at some additional data types.
 
 ```py
 weight = 9.5
@@ -226,7 +226,7 @@ Call to Action - tweet a picture of your pypets @Thinkful so we can share your c
 
 ##Conclusion & Resources
 
-This guide just shows you the beginning of what you can do with Python. If you enjoyed the work you’ve done here, go through any of the additional resources below. If you are stuck feel free to tweet @Thinkful and we would love to help you. Also definitely tweet us a picture of your Pypet code! Feel free to customize any or all of your project and try new things. We have placed a final version of our Pypet on github if you would like to take a look at the code! Perhaps you want to keep track of health points or create a play() function?
+This guide just shows you the beginning of what you can do with Python. If you enjoyed the work you’ve done here, go through any of the additional resources below. If you are stuck feel free to tweet @Thinkful and we would love to help you. Also definitely tweet us a picture of your Pypet code! Feel free to customize any or all of your project and try new things. We have placed a final version of our Pypet [on github](https://github.com/TatianaTylosky/pypet/blob/master/pypet.py) if you would like to take a look at the code! Perhaps you want to keep track of health points or create a play() function?
 
 http://learnpythonthehardway.org/
 
