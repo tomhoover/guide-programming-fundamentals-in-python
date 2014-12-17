@@ -154,7 +154,7 @@ print cat
 
 def feed(pet):
 		pet['hungry'] = False
-		pet['weight'] += 1
+		cat['weight'] = cat['weight'] + 1
 
 feed(cat)
 
@@ -176,10 +176,10 @@ cat = {
   'photo': '(=^o.o^=)__',
 }
 
-def feed(cat):
-	if cat['hungry']:
-		cat['hungry'] = False
-		cat['weight']+=1
+def feed(pet):
+	if pet['hungry']:
+		pet['hungry'] = False
+		pet['weight'] = pet['weight'] + 1
 	else:
 		print 'The Pypet is not hungry!'
 
@@ -189,8 +189,7 @@ feed(cat)
 print cat
 ```
 
-YOU CAN ADD THE CONCATENATE BIT IF YOU HAVE ROOM.
-
+![](http://i.imgur.com/Axp2Smt.gif)
 
 ##Friends for your Pypet! - For Loops and Lists
 
