@@ -107,7 +107,7 @@ Here we’ve created an empty dictionary called cat = {}. Each line contains a d
 
 Next, we've added a print statement to view our first pypet in the console. Try it yourself! Use different "key:value" pairs to customize your own pypet in the text editor (the right panel).
 
-GIF HERE?
+![](http://i.imgur.com/bsj0LGE.gif)
 
 ##Feeding your Pypet - Functions and If Statements
 
