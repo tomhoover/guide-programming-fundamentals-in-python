@@ -3,13 +3,6 @@
 Approximate time ~ 1 hour
 
 ##Introduction
-###What is Python?
-
-__Note for Tati:__ Introduce the Python language after you've told me about the guide itself. Perhaps as a "Why Python?" section.
-
-Python is a [scripting programming language](http://en.wikipedia.org/wiki/Scripting_language) known for both its simplicity and wide breadth of applications. For this reason it is considered one of the best languages for beginners. Used for everything from Web Development to Scientific Computing, Python is referred to as a “general purpose” language by the greater programming community.
-
-Many Python programmers (aka “Pythonistas”) love this language because it maintains a certain philosophy of best practices, described in [Tim Peter’s famous “Zen of Python”](https://www.python.org/dev/peps/pep-0020/). There is a large Python community both off and online that is welcoming and supportive of beginners, and you can find a plethora of additional materials in the resources section of this guide.
 
 ###About this Guide:
 This guide will follow Thinkful’s [project-driven learning philosophy](http://blog.thinkful.com/post/100829199278/project-based-v-s-project-driven-learning), i.e. ”all concepts are taught within the context of that project and students learn as they build”. You will be creating a “Pypet” (“Python-pet”) of your choosing. As you learn new Python concepts you will add new features to your Pypet, allowing to put your knowledge to the test.
@@ -19,6 +12,12 @@ This guide assumes no programming knowledge. You will be using a tool called [Ni
 __Note for Tati:__ The intro doesn't tell me what I'm going to learn (e.g. data structures) and it doesn't tell me who this is right for (e.g. total beginners). This needs some TLC. Also, is "Pypet" a python thing or a this guide thing? I'm confused. Adding the tamagochi referrence might help.
 
 > You will learn Python fundamentals by creating a virtual pet we'll call "Pypet" (a "Python-pet"). Think of your Pypet as a modern-age tamagochi.
+
+###What is Python?
+
+Python is a [scripting programming language](http://en.wikipedia.org/wiki/Scripting_language) known for both its simplicity and wide breadth of applications. For this reason it is considered one of the best languages for beginners. Used for everything from Web Development to Scientific Computing, Python is referred to as a “general purpose” language by the greater programming community.
+
+Many Python programmers (aka “Pythonistas”) love this language because it maintains a certain philosophy of best practices, described in [Tim Peter’s famous “Zen of Python”](https://www.python.org/dev/peps/pep-0020/). There is a large Python community both off and online that is welcoming and supportive of beginners, and you can find a plethora of additional materials in the resources section of this guide.
 
 ###Choose your Pypet:
 To get started you'll need to choose a Pypet. We've included a few options you can use, but feel free to customize it. Keep you Pypet height to just one line as it will make the initial steps easier to follow.
