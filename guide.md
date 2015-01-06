@@ -5,13 +5,14 @@ Approximate time ~ 1 hour
 ##Introduction
 
 ###About this Guide:
+
+Learning promise*****
+__Note for Tati:__ The intro doesn't tell me what I'm going to learn (e.g. data structures) and it doesn't tell me who this is right for (e.g. total beginners). This needs some TLC. Also, is "Pypet" a python thing or a this guide thing? I'm confused. Adding the tamagochi referrence might help.
+> You will learn Python fundamentals by creating a virtual pet we'll call "Pypet" (a "Python-pet"). Think of your Pypet as a modern-age tamagochi.
+
 This guide will follow Thinkful’s [project-driven learning philosophy](http://blog.thinkful.com/post/100829199278/project-based-v-s-project-driven-learning), i.e. ”all concepts are taught within the context of that project and students learn as they build”. You will be creating a “Pypet” (“Python-pet”) of your choosing. As you learn new Python concepts you will add new features to your Pypet, allowing to put your knowledge to the test.
 
 This guide assumes no programming knowledge. You will be using a tool called [Nitrous](https://www.nitrous.io/) to set up your developer environment which makes it easy to get started.
-
-__Note for Tati:__ The intro doesn't tell me what I'm going to learn (e.g. data structures) and it doesn't tell me who this is right for (e.g. total beginners). This needs some TLC. Also, is "Pypet" a python thing or a this guide thing? I'm confused. Adding the tamagochi referrence might help.
-
-> You will learn Python fundamentals by creating a virtual pet we'll call "Pypet" (a "Python-pet"). Think of your Pypet as a modern-age tamagochi.
 
 ###What is Python?
 
