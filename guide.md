@@ -12,6 +12,8 @@ __Note for Tati:__ The intro doesn't tell me what I'm going to learn (e.g. data 
 
 This guide will follow Thinkful’s [project-driven learning philosophy](http://blog.thinkful.com/post/100829199278/project-based-v-s-project-driven-learning), i.e. ”all concepts are taught within the context of that project and students learn as they build”. You will be creating a “Pypet” (“Python-pet”) of your choosing. As you learn new Python concepts you will add new features to your Pypet, allowing to put your knowledge to the test.
 
+We use Gifs throughout this guide to make everything as clear as possible.
+
 This guide assumes no programming knowledge. You will be using a tool called [Nitrous](https://www.nitrous.io/) to set up your developer environment which makes it easy to get started.
 
 ###What is Python?
@@ -42,9 +44,11 @@ To get started you'll need to choose a Pypet. We've included a few options you c
 ##Setup
 
 ###Nitrous.IO
-To get started, we'll need a development environment. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get a Python development environment up and running.
+To get started, we'll need a development environment. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get a Python development environment up and running. Nitrous is a X. We are using it because Y.
 
 ####Setting up Nitrous.IO:
+
+*******rewrite this to make it really clear
 
 1. Create a [Nitrous.io](https://www.nitrous.io/) account.
 2. Once you've confirmed your email, create a Python/Django box. Once your box is ready, click the IDE button.
@@ -59,21 +63,28 @@ __Note for Tati:__ This needs screenshots. Make sure you use the same language a
 
 ###Running Python for the first time
 
-To make our first python program, let's create a new file containing the following code (they're a handy gif showing you how to do this below):
+Here is a Gif demonstrating how to run your first python program. Feel free to either skip down and read the steps in the text below or take a look at the Gif first.
+
+![](http://i.imgur.com/kDyVy2I.gif)
+
+-------------
+
+1. To make our first python program, let's create a new file containing the following code:
 
 ```py
 print 'Welcome to Pypet!'
 ```
+You’ve just written your first print statement. 
 
-You’ve just written your first print statement. Go ahead and save the file as “pypet.py”. 
+2. Go ahead and save the file as “pypet.py”. 
 
-Now type “python pypet.py” into your Nitrous console (in the bottom panel) and hit enter. The console will output “Welcome to Pypet!”. This print statement is a python function which prints things in the console — it's very handy for learning Python and debugging your code.
+3. Now type “python pypet.py” into your Nitrous console (in the bottom panel) and hit enter. 
 
-If you're stuck, watch the gif below or tweet [@Thinkful](https://twitter.com/thinkful). We'd love to help!
+The console will output “Welcome to Pypet!”. This print statement is a python function which prints things in the console — it's very handy for learning Python and debugging your code.
 
-![](http://i.imgur.com/kDyVy2I.gif)
+-------------
 
-__Note for Tati:__ I spent 4 minutes trying to understand how to do this, wish I knew there was a gif earlier. I added a note above, not sure if that's the best way to do this.
+If you're stuck, take another look at the gif above or tweet [@Thinkful](https://twitter.com/thinkful). We'd love to help!
 
 ##Creating your Pypet
 
