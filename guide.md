@@ -67,21 +67,22 @@ Variables are a way of storing information in Python. Below we will create a num
 ```py
 name = 'Fluffy'
 ```
-In Python, variables store different types of data. In this case, `name` is something called a **string** because 'Fluffy' has quotations around it. A **string** is just a set of characters surrounded by quotations. Variables on the other hand do not have quotations. Let’s look at some additional data types.
+Variables can store different types of data. In this case, `name` is something called a **string** because 'Fluffy' has quotations around it. A **string** is just a set of characters surrounded by quotations. **Integers** on the other hand do not have quotations. Let’s look at some additional data types.
 
-2. Create three additional variables to track hunger, weight and toys.
+2. Create three additional variables to track age, weight and hunger.
 
 ```py
 name = 'Fluffy'
-hungry = False
+age = 5
 weight = 9.5
-toys = 5
+hungry = False
 ```
 
-The `hungry` variable is a a **Boolean**. Booleans stores a value of either `True` or `False`. The `weight` variable is a **float**. Floats are a numbers that can have decimals. Last the `toys` variable is an **integer** which must be a whole number. NOTE: Don't use quotations for these three data types.
+The `age` variable is an **integer** and must be a whole number. The `weight` variable is a **float**. Floats are a numbers that can have decimals.  The `hungry` variable is a a **Boolean**. Booleans stores a value of either `True` or `False`. 
+NOTE: Don't use quotations for these three data types.
 
 3. Choose your Pypet's "photo". We've included a few options you can use below, but feel free to customize it. 
-NOTE: Keep you Pypet height to just one line as it will make the initial steps easier to follow.
+NOTE: Keep your Pypet's photo to just one line as it will make the initial steps easier to follow.
 
 --------------------------
 ####Pycat
@@ -106,9 +107,9 @@ NOTE: Keep you Pypet height to just one line as it will make the initial steps e
 
 ```py
 name = 'Fluffy'
-hungry = False
+age = 5
 weight = 9.5
-toys = 5
+hungry = False
 photo = '(=^o.o^=)__'
 ```
 
@@ -125,12 +126,12 @@ cat = {
   'name': 'Fluffy',
   'hungry': True,
   'weight': 9.5,
-  'number_of_toys': 5,
+  'age': 5,
   'photo': '(=^o.o^=)__',
 }
 
 ```
-Here we’ve created a dictionary called `cat`. Each line contains a different cat attribute. Attributes have both a "key" (ex. name, weight, number_of_toys) as well as a value (ex. 'Fluffy', Tue, 9.6 etc). Unlike assigning variables which use an equals sign, dictionary attributes use a colon.
+Here we’ve created a dictionary called `cat`. Each line contains a different cat attribute. Attributes have both a "key" (ex. name, weight, age) as well as a value (ex. 'Fluffy', Tue, 9.6 etc). Unlike assigning variables which use an equals sign, dictionary attributes use a colon.
 
 2. Add a print statement to view your pypet in the console. Don't forget to run your file in the console by typing "python pypet.py" and pressing enter
 
@@ -139,7 +140,7 @@ cat = {
   'name': 'Fluffy',
   'hungry': True,
   'weight': 9.5,
-  'number_of_toys': 5,
+  'age': 5,
   'photo': '(=^o.o^=)__',
 }
 
@@ -189,7 +190,7 @@ cat = {
   'name': 'Fluffy',
   'hungry': True,
   'weight': 9.5,
-  'number_of_toys': 5,
+  'age': 5,
   'photo': '(=^o.o^=)__',
 }
 
@@ -217,7 +218,7 @@ cat = {
   'name': 'Fluffy',
   'hungry': True,
   'weight': 9.5,
-  'number_of_toys': 5,
+  'age': 5,
   'photo': '(=^o.o^=)__',
 }
 
@@ -247,7 +248,7 @@ mouse = {
   'name': 'Mouse',
   'hungry': False,
   'weight': 1.5,
-  'number_of_toys': 6,
+  'age': 6,
   'photo': '<:3 )~~~~',
 }
 ```
