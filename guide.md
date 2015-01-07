@@ -259,9 +259,12 @@ __Note for Tati:__ Show me how to use this on a string, since we mention it.
 
 Call to Action - tweet a picture of your pypets [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world.
 
-BONUS/ADVANCED FEATURES SECTION: Perhaps you want to keep track of health points or create a play() function?
+BONUS: 
+Once you have completed the steps above you should feel free to add additional features that you design yourself! Here are some ideas to get you started:
 
-__Note for Tati:__ What is this bonus about? Feels like something is missing.
+- keep track of a health points variable
+- create a `play()` function
+- create a boolean variable for sleep
 
 ##Conclusion & Resources
 
