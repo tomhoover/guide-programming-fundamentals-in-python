@@ -270,8 +270,6 @@ Once you have completed the steps above you should feel free to add additional f
 
 This guide is just the beginning of what you can do with Python. If you enjoyed the work you’ve done here, go through any of the additional resources below. If you are stuck feel free to tweet [@Thinkful](https://twitter.com/thinkful) — we would love to help you. Feel free to customize any or all of your project and try new things. We have placed a final version of our Pypet [on github](https://github.com/Thinkful/pypet/blob/master/pypet.py) if you would like to take a look at the code.
 
-__Note for Tati:__ This should live under a Thinkful repo (not a TatianaTylosky repo).
-
 Free Resources:
 - [Learnpythonthehardway.org](http://learnpythonthehardway.org/book/)
 - [Learn Python on Codecademy](http://www.codecademy.com/en/tracks/python)
