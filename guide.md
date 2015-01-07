@@ -32,10 +32,10 @@ To get started, we'll need a development environment, aka a place to write and e
 
 5. Let's take a quick tour:
 ![](http://i.imgur.com/6bXzy6A.png)
-    - In the left-most panel, you’ll see the File Browser. Here you can navigate the files in your home folder. At this point, you will just have the "workspace" folder and a README file introducing you to Nitrous.IO. When you have more files, you can open them in Nitrous.IO’s text editor by double clicking on them in the File Broswer.
-    - The middle panel is the Text Editor. This is where you can write and edit code.
-    - The right panel is for chatting if you’re using Nitrous.io in collaborative mode. Close this window for now by clicking the X in the upper right hand corner so you get more screen real estate.
-    - The bottom panel is your console for actually running your python file.
+    - In the **left panel**, you’ll see the File Browser. Here you can navigate the files in your home folder. At this point, you will just have the "workspace" folder and a README file introducing you to Nitrous.IO. When you have more files, you can open them in Nitrous.IO’s text editor by double clicking on them in the File Broswer.
+    - The **middle panel** is the Text Editor. This is where you can write and edit code.
+    - The **right panel** is for chatting if you’re using Nitrous.io in collaborative mode. Close this window for now by clicking the X in the upper right hand corner so you get more screen real estate.
+    - The **bottom panel** is your console for actually running your python file.
 
 ##Running Python for the first time
 
