@@ -113,9 +113,25 @@ photo = '(=^o.o^=)__'
 
 ####Dictionaries
 
-We need a way to tell Python that all of these variables represent one cat. One way to do this is to use a Python **dictionary**. Dictionaries are a way of storing multiple variables that contain different values.
+We need a way to tell Python that all of these variables represent one cat (or dog, fish, creature etc). One way to do this is to use a Python **dictionary**. Dictionaries are a way of storing multiple variables that contain different values. Here is another Gif that you can refer back to as you follow along with the instructions below.
 
-1. Place your variables in a dictionary.
+![](http://i.imgur.com/bsj0LGE.gif)
+
+1. Place your variables in a dictionary. Try using different "key:value" pairs to customize your pypet in the text editor.
+
+```py
+cat = {
+  'name': 'Fluffy',
+  'hungry': True,
+  'weight': 9.5,
+  'number_of_toys': 5,
+  'photo': '(=^o.o^=)__',
+}
+
+```
+Here we’ve created a dictionary called `cat`. Each line contains a different cat attribute. Attributes have both a "key" (ex. name, weight, number_of_toys) as well as a value (ex. 'Fluffy', Tue, 9.6 etc). Unlike assigning variables which use an equals sign, dictionary attributes use a colon.
+
+2. Add a print statement to view your pypet in the console. Don't forget to run your file in the console by typing "python pypet.py" and pressing enter
 
 ```py
 cat = {
@@ -129,13 +145,9 @@ cat = {
 print cat
 ```
 
-__Note for Tati:__ Why do variables get an equal sign '=' while object keys get a colon ":"? We should explain this.
+NOTE TO SELF: DO YOU WANT TO SHOW THEM HOW TO ACCESS ATTRIBUTES
 
-Here we’ve created an empty dictionary called cat = {}. Each line contains a different cat attribute. The attribute described is called a "key" (ex. name, weight, number_of_toys) while the value of each attribute is called...you guessed it - value!
-
-Next, we've added a print statement to view our first pypet in the console. Try using different "key:value" pairs to customize your pypet in the text editor.
-
-![](http://i.imgur.com/bsj0LGE.gif)
+Make sure to take another look at the gif above if you get stuck.
 
 ##Feeding your Pypet - Functions and If Statements
 
