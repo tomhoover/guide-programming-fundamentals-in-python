@@ -65,7 +65,7 @@ The Pypet you will create is going to have certain attributes. For example we ne
 ```py
 name = 'Fluffy'
 ```
-In Python, variables store different types of data. In this case, name is something called a **string** because 'Mr Fluffy' has quotations around it. A **string** is just a set of characters surrounded by quotations. Variables on the other hand do not have quotations. Let’s look at some additional data types.
+In Python, variables store different types of data. In this case, `name` is something called a **string** because 'Fluffy' has quotations around it. A **string** is just a set of characters surrounded by quotations. Variables on the other hand do not have quotations. Let’s look at some additional data types.
 
 2. Create three additional variables to track hunger, weight and toys.
 
