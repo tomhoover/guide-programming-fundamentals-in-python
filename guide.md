@@ -44,9 +44,9 @@ Here is a Gif demonstrating how to run your first python program. Feel free to e
 
 1. Create a new file containing the following code:
 
-```py
-print 'Welcome to Pypet!'
-```
+	```py
+	print 'Welcome to Pypet!'
+	```
 
 2. Go ahead and save the file as “pypet.py”. 
 
