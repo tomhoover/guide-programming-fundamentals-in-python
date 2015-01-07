@@ -6,30 +6,27 @@ Approximate time ~ 1 hour
 
 ###About this Guide:
 
-This guide was created for complete beginners and will teach you programming fundamentals in Python. Following Thinkful’s [project-driven learning philosophy](http://blog.thinkful.com/post/100829199278/project-based-v-s-project-driven-learning) you will learn by actually building your own project. We use Gifs throughout this guide to make everything as clear as possible and guide you through the project.
+This guide was created for complete beginners and will teach you programming fundamentals in Python. Following Thinkful’s [project-driven learning philosophy](http://blog.thinkful.com/post/100829199278/project-based-v-s-project-driven-learning) you will learn by actually building your own project. We also use Gifs throughout this guide to make everything as clear as possible.
 
-As you complete this guide you'll learn Python fundamentals by creating a virtual pet we'll call "Pypet" (a "Python-pet"). Think of your Pypet as a modern-age tamagochi or Pokemon! With each new Python concepts you will add new features to your Pypet putting your knowledge to the test.
+As you complete this guide you'll learn Python fundamentals by creating a virtual pet we'll call "Pypet" (a "Python-pet"). Think of your Pypet as a modern-age tamagochi or Pokemon! With each new Python programming concepts you will add new features to your Pypet putting your knowledge to the test.
 
-The are no software or computer requirements except that you need access to a web broswer (which you obviously already have at this point). You will learn how to use a free tool called [Nitrous](https://www.nitrous.io/) to set up your developer environment which takes away the pain of setting of a coding environment. It is even cloud based so you can log in from any computer to view your code.
+There are no software or computer requirements for this guide except that you need access to a web broswer (which you obviously already have at this point). You will learn how to use a free tool called [Nitrous](https://www.nitrous.io/) to set up your developer environment which takes away the typical pain of setting up a coding environment. It is also cloud based so you can log in from any computer to view your code.
 
 ###What is Python?
 
 Python is a [scripting programming language](http://en.wikipedia.org/wiki/Scripting_language) known for both its simplicity and wide breadth of applications. For this reason it is considered one of the best languages for beginners. Used for everything from Web Development to Scientific Computing, Python is referred to as a “general purpose” language by the greater programming community.
 
-Many Python programmers (aka “Pythonistas”) love this language because it maintains a certain philosophy of best practices, described in [Tim Peter’s famous “Zen of Python”](https://www.python.org/dev/peps/pep-0020/). There is a large Python community both off and online that is welcoming and supportive of beginners, and you can find a plethora of additional materials in the resources section of this guide.
+Many Python programmers (aka “Pythonistas”) love this language because it maintains a certain philosophy of best practices, described in [Tim Peter’s famous “Zen of Python”](https://www.python.org/dev/peps/pep-0020/). There is a large Python community both off and online that is welcoming and supportive of beginners, and you can find a plethora of additional materials in the [resources]() section of this guide.
 
 ##Setup
 
-###Nitrous.IO
-To get started, we'll need a development environment, aka a place to write and execute code. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get you up and running. Nitrous is a cloud-based developer environment that works really well for programming in python. We are using it because it won't matter whether you use mac or windows or any operating system in order to run and test your code.
-
-####Setting up Nitrous.IO:
+To get started, we'll need a development environment, aka a place to write and execute code. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get you up and running. Nitrous is a cloud-based developer environment that works really well for programming in python. We are using it because it won't matter whether you use mac or windows or any other operating system in order to run and test your code.
 
 *******rewrite this to make it really clear
 *******add gif for this
 
-1. Create a [Nitrous.io](https://www.nitrous.io/) account.
-2. Once you've confirmed your email, create a Python/Django box. Once your box is ready, click the IDE button.
+1. Go to [Nitrous.io](https://www.nitrous.io/) and create an account. NOTE:You will have to check your email and activate your account before you can sign in.
+2. Once you have signed in and confirmed your email click the "open dashboard" button on their [homepage](https://www.nitrous.io/).
 3. Now you have a powerful, cloud-based development environment that comes pre-installed with Python. Let's take a quick tour:
 
     - In the left-most panel, you’ll see the File Browser. Here you can navigate the files in your home folder. At this point, you will just have the "workspace" folder and a README file introducing you to Nitrous.IO. When you have more files, you can open them in Nitrous.IO’s text editor by double clicking on them in the File Broswer.
