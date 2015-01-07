@@ -261,10 +261,12 @@ Once you have completed the steps above you should feel free to add additional f
 This guide is just the beginning of what you can do with Python. If you enjoyed the work you’ve done here, go through any of the additional resources below. If you are stuck feel free to tweet [@Thinkful](https://twitter.com/thinkful) — we would love to help you. Feel free to customize any or all of your project and try new things. We have placed a final version of our Pypet [on github](https://github.com/Thinkful/pypet/blob/master/pypet.py) if you would like to take a look at the code.
 
 Free Resources:
-- [Learnpythonthehardway.org](http://learnpythonthehardway.org/book/)
-- [Learn Python on Codecademy](http://www.codecademy.com/en/tracks/python)
-- [Think Python](http://www.greenteapress.com/thinkpython/)
-- [Huge list of even more python resource](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#python)
 
-Free tools:
-- [IPython Notebook](http://ipython.org/notebook.html)
+- [The Hitchhiker's Guide to Python!](http://docs.python-guide.org/en/latest/)
+- [Coursera - Interactive Python](https://www.coursera.org/course/interactivepython)
+- [Learn Python the Hard Way](http://learnpythonthehardway.org/)
+- [Invent With Python](http://inventwithpython.com/)
+- [Green Tea Press](http://greenteapress.com/)
+- [Codecademy](http://www.codecademy.com/#!/exercises/0)
+- [Dive Into Python](http://www.diveintopython.net/)
+- [Real Python](http://www.realpython.com/)
