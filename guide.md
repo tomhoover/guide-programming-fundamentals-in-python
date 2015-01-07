@@ -79,8 +79,9 @@ toys = 5
 The `hungry` variable is a a **Boolean**. Booleans stores a value of either `True` or `False`. The `weight` variable is a **float**. Floats are a numbers that can have decimals. Last the `toys` variable is an **integer** which must be a whole number. NOTE: Don't use quotations for these three data types.
 
 3. Choose your Pypet's "photo". We've included a few options you can use below, but feel free to customize it. 
-NOTE:Keep you Pypet height to just one line as it will make the initial steps easier to follow.
+NOTE: Keep you Pypet height to just one line as it will make the initial steps easier to follow.
 
+--------------------------
 ####Pycat
 
 (=^o.o^=)__
@@ -96,6 +97,7 @@ NOTE:Keep you Pypet height to just one line as it will make the initial steps ea
 ####Py? (you choose!)
 
 (^‘*m*’^)
+--------------------------
 
 6. Next include another variable that is a string containing this “photo” of our pet.
 
