@@ -122,11 +122,11 @@ Variables are a way of storing information in Python. Below we'll create differe
 	hunger = False
 	photo = '(=^o.o^=)__'
 	
-	print"Name: " + fluffy
-	print"Age: " + fluffy
-	print"Weight: " + fluffy
-	print"Hunger: " + fluffy
-	print"Photo: " + fluffy
+	print"Name: " + name
+	print"Age: " + str(age)
+	print"Weight: " + str(weight)
+	print"Hunger: " + str(hunger)
+	print"Photo: " + photo
 
 	```
 
