@@ -257,7 +257,7 @@ print pet
 
 __Note for Tati:__ Show me how to use this on a string, since we mention it.
 
-Call to Action - tweet a picture of your pypets [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world.
+Tweet a screen of your pypets [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world.
 
 BONUS: 
 Once you have completed the steps above you should feel free to add additional features that you design yourself! Here are some ideas to get you started:
