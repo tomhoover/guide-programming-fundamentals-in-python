@@ -6,9 +6,11 @@ Approximate time ~ 1 hour
 
 ###About this Guide:
 
-This guide is designed for complete beginners and will teach you programming fundamentals in Python. Following Thinkful’s [project-driven learning philosophy](http://blog.thinkful.com/post/100829199278/project-based-v-s-project-driven-learning) you will learn by actually building a project. We use Gifs throughout this guide to make everything as clear as possible.
+This guide was created for complete beginners and will teach you programming fundamentals in Python. Following Thinkful’s [project-driven learning philosophy](http://blog.thinkful.com/post/100829199278/project-based-v-s-project-driven-learning) you will learn by actually building a project. We use Gifs throughout this guide to make everything as clear as possible.
 
-As you complete this guide you'll learn Python fundamentals by creating a virtual pet we'll call "Pypet" (a "Python-pet"). Think of your Pypet as a modern-age tamagochi or Pokemon. With each new Python concepts you will add new features to your Pypet putting your knowledge to the test. We will have you use a free tool called [Nitrous](https://www.nitrous.io/) to set up your developer environment which takes away the pain of setting of a coding environment and is even cloud based so you can log in from any computer.
+As you complete this guide you'll learn Python fundamentals by creating a virtual pet we'll call "Pypet" (a "Python-pet"). Think of your Pypet as a modern-age tamagochi or Pokemon! With each new Python concepts you will add new features to your Pypet putting your knowledge to the test.
+
+The are no software requirements except that you need access to a web broswer (which you obviously already have at this point). We will have you use a free tool called [Nitrous](https://www.nitrous.io/) to set up your developer environment which takes away the pain of setting of a coding environment. It is even cloud based so you can log in from any computer to view your code.
 
 ###What is Python?
 
@@ -17,7 +19,8 @@ Python is a [scripting programming language](http://en.wikipedia.org/wiki/Script
 Many Python programmers (aka “Pythonistas”) love this language because it maintains a certain philosophy of best practices, described in [Tim Peter’s famous “Zen of Python”](https://www.python.org/dev/peps/pep-0020/). There is a large Python community both off and online that is welcoming and supportive of beginners, and you can find a plethora of additional materials in the resources section of this guide.
 
 ###Choose your Pypet:
-To get started you'll need to choose a Pypet. We've included a few options you can use, but feel free to customize it. Keep you Pypet height to just one line as it will make the initial steps easier to follow.
+To get started you'll need to choose a Pypet. We've included a few options you can use, but feel free to customize it. 
+NOTE:Keep you Pypet height to just one line as it will make the initial steps easier to follow.
 
 ####Pycat
 
@@ -38,7 +41,7 @@ To get started you'll need to choose a Pypet. We've included a few options you c
 ##Setup
 
 ###Nitrous.IO
-To get started, we'll need a development environment. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get a Python development environment up and running. Nitrous is a X. We are using it because Y.
+To get started, we'll need a development environment, aka a place to write and execute code. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get you up and running. Nitrous is a cloud-based developer environment that works really well for programming in python. We are using it because it won't matter whether you use mac or windows or any operating system in order to run and test your code.
 
 ####Setting up Nitrous.IO:
 
