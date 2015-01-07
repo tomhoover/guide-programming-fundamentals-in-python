@@ -49,6 +49,7 @@ To get started, we'll need a development environment. For this we'll use [Nitrou
 ####Setting up Nitrous.IO:
 
 *******rewrite this to make it really clear
+*******add gif for this
 
 1. Create a [Nitrous.io](https://www.nitrous.io/) account.
 2. Once you've confirmed your email, create a Python/Django box. Once your box is ready, click the IDE button.
@@ -59,6 +60,7 @@ To get started, we'll need a development environment. For this we'll use [Nitrou
     - The right panel is for chatting if you’re using Nitrous.io in collaborative mode. Close this window for now by clicking the X in the upper right hand corner so you get more screen real estate.
     - The bottom panel is your console for actually running your python file.
 
+make sure you covered all of this******
 __Note for Tati:__ This needs screenshots. Make sure you use the same language as the app: they don't use the "IDE" language, they say "Okay, take me to my box". What is "cloud-based development environment"? I'm a n00b try to avoid technical terms unless you explain them. Why are we using Nitrous? Explaining that we're doing this to simplify the follow-along for everyone is key... if not I'm thinking: "But hey, I have Python on my mac. Could I use Python on my mac? Do I NEED to use nitrous?". Do I need to have a Nitrous.io quick tour now? Can I not learn to use this thing as we go? If I need this now, is text the best way to do it (v.s. video)?
 
 ###Running Python for the first time
