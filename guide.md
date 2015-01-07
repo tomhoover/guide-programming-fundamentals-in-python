@@ -270,7 +270,7 @@ This guide is just the beginning of what you can do with Python. If you enjoyed 
 __Note for Tati:__ This should live under a Thinkful repo (not a TatianaTylosky repo).
 
 Free Resources:
-- [Learnpythonthehardway.org](http://learnpythonthehardway.org/)
+- [Learnpythonthehardway.org](http://learnpythonthehardway.org/book/)
 - [Learn Python on Codecademy](http://www.codecademy.com/en/tracks/python)
 - [Think Python](http://www.greenteapress.com/thinkpython/)
 
