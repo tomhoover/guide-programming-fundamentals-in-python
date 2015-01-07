@@ -68,7 +68,7 @@ Variables are a way of storing information in Python. Below we will create diffe
 	```py
 	name = 'Fluffy'
 	```
-	Variables can store different types of data. In this case, `name` is something called a **string** because 'Fluffy' has 	quotations around it. A **string** is just a set of characters surrounded by quotations. **Integers** on the other hand 	do not have quotations. Let’s look at some additional data types.
+	Variables can store different types of data. In this case, `name` is something called a **string** because 'Fluffy' has 	quotations around it. A **string** is just a set of characters surrounded by quotations. ***NOTE: strings can use 		either single or double quotes.*** **Integers** on the other hand 	do not have quotations. Let’s look at some additional 	data types.
 	
 2. Create three additional variables to track age, weight and hunger.
 
@@ -79,8 +79,7 @@ Variables are a way of storing information in Python. Below we will create diffe
 	hunger = False
 	```
 	
-	The `age` variable is an **integer** and therefore must be a whole number. The `weight` variable is a **float**. Floats 	are a numbers that can have decimals.  The `hunger` variable is a a **Boolean**. Booleans stores a value of either 		`True` or `False`. 
-	NOTE: Don't use quotations for these three data types.
+	The `age` variable is an **integer** and therefore must be a whole number. The `weight` variable is a **float**. Floats 	are a numbers that can have values after the decimal point.  The `hunger` variable is a a **Boolean**. Booleans stores 	a value of either `True` or `False`. ***NOTE: Don't use quotations for these three data types.***
 
 3. Choose your Pypet's "photo". We've included a few options you can use below, but feel free to customize it. 
 NOTE: Keep your Pypet's photo to just one line as it will make the initial steps easier to follow.
