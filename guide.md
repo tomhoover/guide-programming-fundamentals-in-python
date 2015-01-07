@@ -43,7 +43,7 @@ Here is a Gif demonstrating how to run your first python program. Feel free to e
 
 ![](http://i.imgur.com/kDyVy2I.gif)
 
-1. Create a new file containing the following code:
+1. Create a new file containing the following code in the text editor (middle panel):
 
 	```py
 	print 'Welcome to Pypet!'
