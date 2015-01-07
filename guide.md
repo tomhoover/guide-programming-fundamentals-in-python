@@ -239,13 +239,11 @@ mouse = {
 }
 ```
 
-Now that we have more than one Pypet we can store them in a Python list. A [list](http://www.tutorialspoint.com/python/python_lists.htm) is another data type; lists stores variables in order:
+Now that we have more than one Pypet we can store them in a Python list. A [list](http://www.tutorialspoint.com/python/python_lists.htm) is another data type; lists stores variables in order. If python isn't the first programming language you are learning, you may have heard of this same concept in other programming languages as an [array](http://techterms.com/definition/array).
 
 ```py
 pets = [cat, mouse]
 ```
-
-__Note for Tati:__ I would mention that in other programming languages lists are often referred to as "array".
 
 What if we want to feed all the pets in our list? If we want to run a function on each variable in a list we can use something in Python called a loop. The [for loop](http://www.tutorialspoint.com/python/python_for_loop.htm) in Python has the ability to iterate over the items of any sequence, such as a list.
 
