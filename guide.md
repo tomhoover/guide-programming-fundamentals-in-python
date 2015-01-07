@@ -58,6 +58,8 @@ If you're stuck, take another look at the gif above or tweet [@Thinkful](https:/
 
 ##Creating your Pypet
 
+###Variables
+
 The Pypet you will create is going to have certain attributes. For example we need to give it a name.
 
 1. Create a variable called `name` equal to `'Fluffy'`.
@@ -109,7 +111,11 @@ toys = 5
 photo = '(=^o.o^=)__'
 ```
 
-We need a way to tell Python that all of these variables represent one cat. One way to do this is to use a Python dictionary. Dictionaries are a way of storing multiple variables that contain different values.
+####Dictionaries
+
+We need a way to tell Python that all of these variables represent one cat. One way to do this is to use a Python **dictionary**. Dictionaries are a way of storing multiple variables that contain different values.
+
+1. Place your variables in a dictionary.
 
 ```py
 cat = {
@@ -122,8 +128,6 @@ cat = {
 
 print cat
 ```
-
-__Note for Tati:__ Am I supposed to follow along here or are you just explaining stuff? I'm not sure what I'm supposed to do from the last note up until here. My vote would be to hand-hold the reader through each one of these steps.
 
 __Note for Tati:__ Why do variables get an equal sign '=' while object keys get a colon ":"? We should explain this.
 
