@@ -75,10 +75,10 @@ Variables can store different types of data. In this case, `name` is something c
 name = 'Fluffy'
 age = 5
 weight = 9.5
-hungry = False
+hunger = False
 ```
 
-The `age` variable is an **integer** and must be a whole number. The `weight` variable is a **float**. Floats are a numbers that can have decimals.  The `hungry` variable is a a **Boolean**. Booleans stores a value of either `True` or `False`. 
+The `age` variable is an **integer** and must be a whole number. The `weight` variable is a **float**. Floats are a numbers that can have decimals.  The `hunger` variable is a a **Boolean**. Booleans stores a value of either `True` or `False`. 
 NOTE: Don't use quotations for these three data types.
 
 3. Choose your Pypet's "photo". We've included a few options you can use below, but feel free to customize it. 
@@ -109,7 +109,7 @@ NOTE: Keep your Pypet's photo to just one line as it will make the initial steps
 name = 'Fluffy'
 age = 5
 weight = 9.5
-hungry = False
+hunger = False
 photo = '(=^o.o^=)__'
 ```
 
@@ -124,7 +124,7 @@ We need a way to tell Python that all of these variables represent one cat (or d
 ```py
 cat = {
   'name': 'Fluffy',
-  'hungry': True,
+  'hunger': True,
   'weight': 9.5,
   'age': 5,
   'photo': '(=^o.o^=)__',
@@ -138,7 +138,7 @@ Here we’ve created a dictionary called `cat`. Each line contains a different c
 ```py
 cat = {
   'name': 'Fluffy',
-  'hungry': True,
+  'hunger': True,
   'weight': 9.5,
   'age': 5,
   'photo': '(=^o.o^=)__',
@@ -157,14 +157,14 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 
 ```py
 def feed(pet):
-		pet['hungry'] = False
+		pet['hunger'] = False
 ```
 
 Now that you have defined your function you can use it by adding **feed(cat)** to your code.
 
 ```py
 def feed(pet):
-		pet['hungry'] = False
+		pet['hunger'] = False
 
 feed(cat)
 ```
@@ -177,7 +177,7 @@ We should also increase the Pypet’s weight a bit since it has eaten. Floats an
 
 ```py
 def feed(cat):
-		cat['hungry'] = False
+		cat['hunger'] = False
 		cat['weight'] = cat['weight'] + 1
 ```
 
@@ -197,7 +197,7 @@ cat = {
 print cat
 
 def feed(pet):
-		pet['hungry'] = False
+		pet['hunger'] = False
 		cat['weight'] = cat['weight'] + 1
 
 feed(cat)
@@ -216,15 +216,15 @@ print 'Welome to Pypet!'
 
 cat = {
   'name': 'Fluffy',
-  'hungry': True,
+  'hunger': True,
   'weight': 9.5,
   'age': 5,
   'photo': '(=^o.o^=)__',
 }
 
 def feed(pet):
-	if pet['hungry']:
-		pet['hungry'] = False
+	if pet['hunger']:
+		pet['hunger'] = False
 		pet['weight'] = pet['weight'] + 1
 	else:
 		print 'The Pypet is not hungry!'
@@ -246,7 +246,7 @@ Let’s create another Pypet:
 ```py
 mouse = {
   'name': 'Mouse',
-  'hungry': False,
+  'hunger': False,
   'weight': 1.5,
   'age': 6,
   'photo': '<:3 )~~~~',
