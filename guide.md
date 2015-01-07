@@ -247,7 +247,7 @@ pets = [cat, mouse]
 
 __Note for Tati:__ I would mention that in other programming languages lists are often referred to as "array".
 
-What if we want to feed all the pets in our list? If we want to run a function on each variable in a list we can use something in Python called a loop. The [for loop](http://www.tutorialspoint.com/python/python_for_loop.htm) in Python has the ability to iterate over the items of any sequence, such as a list or a string.
+What if we want to feed all the pets in our list? If we want to run a function on each variable in a list we can use something in Python called a loop. The [for loop](http://www.tutorialspoint.com/python/python_for_loop.htm) in Python has the ability to iterate over the items of any sequence, such as a list.
 
 ```py
 for pet in pets:
@@ -255,9 +255,7 @@ for pet in pets:
 print pet
 ```
 
-__Note for Tati:__ Show me how to use this on a string, since we mention it.
-
-Tweet a screen of your pypets [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world.
+Tweet a screenshot of your pypets [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world!
 
 BONUS: 
 Once you have completed the steps above you should feel free to add additional features that you design yourself! Here are some ideas to get you started:
