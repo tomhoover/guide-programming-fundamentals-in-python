@@ -79,7 +79,7 @@ Variables are a way of storing information in Python. Below we will create a num
 	hunger = False
 	```
 	
-	The `age` variable is an **integer** and must be a whole number. The `weight` variable is a **float**. Floats are a 		numbers that can have decimals.  The `hunger` variable is a a **Boolean**. Booleans stores a value of either `True` or 	`False`. 
+	The `age` variable is an **integer** and therefore must be a whole number. The `weight` variable is a **float**. Floats 	are a numbers that can have decimals.  The `hunger` variable is a a **Boolean**. Booleans stores a value of either 		`True` or `False`. 
 	NOTE: Don't use quotations for these three data types.
 
 3. Choose your Pypet's "photo". We've included a few options you can use below, but feel free to customize it. 
