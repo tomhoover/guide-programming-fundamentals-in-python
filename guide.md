@@ -42,22 +42,17 @@ Here is a Gif demonstrating how to run your first python program. Feel free to e
 
 ![](http://i.imgur.com/kDyVy2I.gif)
 
--------------
-
 1. Create a new file containing the following code:
 
 ```py
 print 'Welcome to Pypet!'
 ```
-You’ve just written your first print statement. 
 
 2. Go ahead and save the file as “pypet.py”. 
 
 3. Now type “python pypet.py” into your Nitrous console (in the bottom panel) and hit enter. 
 
-The console will output “Welcome to Pypet!”. This print statement is a python function which prints things in the console — it's very handy for learning Python and debugging your code.
-
--------------
+The console will output “Welcome to Pypet!”. You’ve just written your first print statement. The print statement is a python function which prints things in the console — it's very handy for learning Python and debugging your code.
 
 If you're stuck, take another look at the gif above or tweet [@Thinkful](https://twitter.com/thinkful). We'd love to help!
 
