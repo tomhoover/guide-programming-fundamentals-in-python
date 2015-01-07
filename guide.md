@@ -264,6 +264,7 @@ Free Resources:
 - [Learnpythonthehardway.org](http://learnpythonthehardway.org/book/)
 - [Learn Python on Codecademy](http://www.codecademy.com/en/tracks/python)
 - [Think Python](http://www.greenteapress.com/thinkpython/)
+- [Huge list of even more python resource](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#python)
 
 Free tools:
 - [IPython Notebook](http://ipython.org/notebook.html)
