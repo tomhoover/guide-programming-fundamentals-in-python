@@ -6,37 +6,17 @@ Approximate time ~ 1 hour
 
 ###About this Guide:
 
-This guide was created for complete beginners and will teach you programming fundamentals in Python. Following Thinkful’s [project-driven learning philosophy](http://blog.thinkful.com/post/100829199278/project-based-v-s-project-driven-learning) you will learn by actually building a project. We use Gifs throughout this guide to make everything as clear as possible.
+This guide was created for complete beginners and will teach you programming fundamentals in Python. Following Thinkful’s [project-driven learning philosophy](http://blog.thinkful.com/post/100829199278/project-based-v-s-project-driven-learning) you will learn by actually building your own project. We use Gifs throughout this guide to make everything as clear as possible and guide you through the project.
 
 As you complete this guide you'll learn Python fundamentals by creating a virtual pet we'll call "Pypet" (a "Python-pet"). Think of your Pypet as a modern-age tamagochi or Pokemon! With each new Python concepts you will add new features to your Pypet putting your knowledge to the test.
 
-The are no software requirements except that you need access to a web broswer (which you obviously already have at this point). We will have you use a free tool called [Nitrous](https://www.nitrous.io/) to set up your developer environment which takes away the pain of setting of a coding environment. It is even cloud based so you can log in from any computer to view your code.
+The are no software or computer requirements except that you need access to a web broswer (which you obviously already have at this point). You will learn how to use a free tool called [Nitrous](https://www.nitrous.io/) to set up your developer environment which takes away the pain of setting of a coding environment. It is even cloud based so you can log in from any computer to view your code.
 
 ###What is Python?
 
 Python is a [scripting programming language](http://en.wikipedia.org/wiki/Scripting_language) known for both its simplicity and wide breadth of applications. For this reason it is considered one of the best languages for beginners. Used for everything from Web Development to Scientific Computing, Python is referred to as a “general purpose” language by the greater programming community.
 
 Many Python programmers (aka “Pythonistas”) love this language because it maintains a certain philosophy of best practices, described in [Tim Peter’s famous “Zen of Python”](https://www.python.org/dev/peps/pep-0020/). There is a large Python community both off and online that is welcoming and supportive of beginners, and you can find a plethora of additional materials in the resources section of this guide.
-
-###Choose your Pypet:
-To get started you'll need to choose a Pypet. We've included a few options you can use, but feel free to customize it. 
-NOTE:Keep you Pypet height to just one line as it will make the initial steps easier to follow.
-
-####Pycat
-
-(=^o.o^=)__
-
-####Pymouse
-
-<:3 )~~~~
-
-####Pyfish
-
-<`)))><
-
-####Py? (you choose!)
-
-(^‘*m*’^)
 
 ##Setup
 
@@ -107,7 +87,26 @@ toys = 5
 
 The `hungry` variable is a a **Boolean**. Booleans stores a value of either `True` or `False`. The `weight` variable is a **float**. Floats are a numbers that can have decimals. Last the `toys` variable is an **integer** which must be a whole number. NOTE: Don't use quotations for these three data types.
 
-3. Next include another variable that is a string containing “photo” of our pet.
+3. Choose your Pypet's "photo". We've included a few options you can use below, but feel free to customize it. 
+NOTE:Keep you Pypet height to just one line as it will make the initial steps easier to follow.
+
+####Pycat
+
+(=^o.o^=)__
+
+####Pymouse
+
+<:3 )~~~~
+
+####Pyfish
+
+<`)))><
+
+####Py? (you choose!)
+
+(^‘*m*’^)
+
+6. Next include another variable that is a string containing this “photo” of our pet.
 
 ```py
 name = 'Mr Fluffy'
