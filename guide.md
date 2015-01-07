@@ -98,7 +98,7 @@ NOTE: Keep you Pypet height to just one line as it will make the initial steps e
 
 ####Py? (you choose!)
 
-(^‘*m*’^)
+(^‘0M0’^)
 --------------------------
 
 6. Next include another variable that is a string containing this “photo” of our pet.
