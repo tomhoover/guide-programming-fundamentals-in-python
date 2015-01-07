@@ -68,7 +68,7 @@ Here is a Gif demonstrating how to run your first python program. Feel free to e
 
 -------------
 
-1. To make our first python program, let's create a new file containing the following code:
+1. Create a new file containing the following code:
 
 ```py
 print 'Welcome to Pypet!'
@@ -87,20 +87,27 @@ If you're stuck, take another look at the gif above or tweet [@Thinkful](https:/
 
 ##Creating your Pypet
 
-The Pypet you will create is going to have certain attributes. For example we need to give it a name. Let's create a variable called **name** equal to 'Mr Fluffy'.  In Python, variables store different types of data. 
+The Pypet you will create is going to have certain attributes. For example we need to give it a name.
+
+1. Create a variable called `name` equal to `'Mr Fluffy'`.
 
 ```py
 name = 'Mr Fluffy'
 ```
+In Python, variables store different types of data. In this case, name is something called a **string** because 'Mr Fluffy' has quotations around it. A **string** is just a set of characters surrounded by quotations. Variables on the other hand do not have quotations. Let’s look at some additional data types.
 
-In this case, name is something called a **string** because 'Mr Fluffy' has quotations around it. A **string** is just a set of characters surrounded by quotations. Variables on the other hand do not have quotations. Let’s look at some additional data types.
+2. Create three additional variables to track hunger, weight and toys.
 
 ```py
+name = 'Mr Fluffy'
 hungry = False
 weight = 9.5
+toys = 5
 ```
 
-A **Boolean** stores a value of either True or False. A **float** is a number that can have decimals. An **integer** is a whole number. Don't use quotations for these three data types. Next, we'll include another variable that is a string containing “photo” of our pet.
+The `hungry` variable is a a **Boolean**. Booleans stores a value of either `True` or `False`. The `weight` variable is a **float**. Floats are a numbers that can have decimals. Last the `toys` variable is an **integer** which must be a whole number. NOTE: Don't use quotations for these three data types.
+
+3. Next include another variable that is a string containing “photo” of our pet.
 
 ```py
 name = 'Mr Fluffy'
