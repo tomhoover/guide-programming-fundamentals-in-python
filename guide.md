@@ -40,7 +40,7 @@ To get started, we'll need a development environment, aka a place to write and e
 make sure you covered all of this******
 __Note for Tati:__ This needs screenshots. Make sure you use the same language as the app: they don't use the "IDE" language, they say "Okay, take me to my box". What is "cloud-based development environment"? I'm a n00b try to avoid technical terms unless you explain them. Why are we using Nitrous? Explaining that we're doing this to simplify the follow-along for everyone is key... if not I'm thinking: "But hey, I have Python on my mac. Could I use Python on my mac? Do I NEED to use nitrous?". Do I need to have a Nitrous.io quick tour now? Can I not learn to use this thing as we go? If I need this now, is text the best way to do it (v.s. video)?
 
-###Running Python for the first time
+##Running Python for the first time
 
 Here is a Gif demonstrating how to run your first python program. Feel free to either skip down and read the steps in the text below or take a look at the Gif first.
 
