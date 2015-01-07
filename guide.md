@@ -125,7 +125,8 @@ Variables are a way of storing information in Python. Below we'll create differe
 	print 'Hello ' + name + '!'
 	print photo
 	```
-	Don't forget to run `python pypet.py` in the console. Your console should look like:
+	Don't forget to run `python pypet.py` in the console (bottom window). Your console should look like:
+	
 	![](http://i.imgur.com/teThhJk.png)
 	
 ###Dictionaries
