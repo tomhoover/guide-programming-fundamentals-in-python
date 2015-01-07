@@ -24,7 +24,8 @@ To get started, we'll need a development environment, aka a place to write and e
 
 1. Go to [Nitrous.io](https://www.nitrous.io/) and create an account. NOTE: You will have to check your email and activate your account before you can sign in.
 2. Once you have signed in and confirmed your email click the "open dashboard" button on their [homepage](https://www.nitrous.io/).
-3. You should be prompted to create your first Nitrous "box" aka developer environment. Choose "Python/Django". You can rename your box anything you like or just leave it as is. Don't worry about the optional section that says "Download a Github repo". See image below as an example.
+3. You should be prompted to create your first Nitrous "box" aka developer environment. Choose "Python/Django". You can rename your box anything you like or just leave it as is. Don't worry about the optional section that says "Download a Github repo". See image below as an example:
+
 ![](http://i.imgur.com/gBTqt8X.png)
 
 4. Click "Create Box" and then click "Next" until you can see your box. Click on your box and then the button that says IDE. Now you have a powerful, cloud-based development environment that comes pre-installed with Python!
