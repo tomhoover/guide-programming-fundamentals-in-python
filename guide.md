@@ -60,17 +60,17 @@ If you're stuck, take another look at the gif above or tweet [@Thinkful](https:/
 
 The Pypet you will create is going to have certain attributes. For example we need to give it a name.
 
-1. Create a variable called `name` equal to `'Mr Fluffy'`.
+1. Create a variable called `name` equal to `'Fluffy'`.
 
 ```py
-name = 'Mr Fluffy'
+name = 'Fluffy'
 ```
 In Python, variables store different types of data. In this case, name is something called a **string** because 'Mr Fluffy' has quotations around it. A **string** is just a set of characters surrounded by quotations. Variables on the other hand do not have quotations. Let’s look at some additional data types.
 
 2. Create three additional variables to track hunger, weight and toys.
 
 ```py
-name = 'Mr Fluffy'
+name = 'Fluffy'
 hungry = False
 weight = 9.5
 toys = 5
@@ -100,7 +100,7 @@ NOTE:Keep you Pypet height to just one line as it will make the initial steps ea
 6. Next include another variable that is a string containing this “photo” of our pet.
 
 ```py
-name = 'Mr Fluffy'
+name = 'Fluffy'
 hungry = False
 weight = 9.5
 toys = 5
@@ -111,7 +111,7 @@ We need a way to tell Python that all of these variables represent one cat. One 
 
 ```py
 cat = {
-  'name': 'Mr Fluffy',
+  'name': 'Fluffy',
   'hungry': True,
   'weight': 9.5,
   'number_of_toys': 5,
@@ -167,7 +167,7 @@ Try setting your original pypet’s hungry variable to True and then call the fu
 print 'Welome to Pypet!'
 
 cat = {
-  'name': 'Mr Fluffy',
+  'name': 'Fluffy',
   'hungry': True,
   'weight': 9.5,
   'number_of_toys': 5,
@@ -195,7 +195,7 @@ In order to know whether our Pypet is hungry, we are going to use an if statemen
 print 'Welome to Pypet!'
 
 cat = {
-  'name': 'Mr Fluffy',
+  'name': 'Fluffy',
   'hungry': True,
   'weight': 9.5,
   'number_of_toys': 5,
