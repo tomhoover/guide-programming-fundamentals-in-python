@@ -20,7 +20,7 @@ Many Python programmers (aka “Pythonistas”) love this language because it ma
 
 ##Setup
 
-To get started we'll need a development environment, aka a place to write and execute code. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get you up and running. Nitrous is a cloud-based developer environment that works really well for programming in python. We are using it because it won't matter whether you use mac or windows or any other operating system in order to run and test your code.
+To get started we'll need a development environment, aka a place to write and execute code. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get you up and running. Nitrous is a cloud-based developer environment that works really well for programming in python. Since Nitrous.io is a web application it won't matter whether you have a mac or windows or even linux computer to run and test your code.
 
 1. Go to [Nitrous.io](https://www.nitrous.io/) and create an account. NOTE: You will have to check your email and activate your account before you can sign in.
 2. Once you have signed in and confirmed your email click the "open dashboard" button on their [homepage](https://www.nitrous.io/).
