@@ -1,6 +1,6 @@
 #Programming Fundamentals in Python
 
-Approximate time ~ 1 hour
+Approximate time ~ 2 hours
 
 ##Introduction
 
@@ -8,7 +8,7 @@ Approximate time ~ 1 hour
 
 This guide was created for complete beginners and will teach you programming fundamentals in Python. Following our [project-driven learning philosophy](http://blog.thinkful.com/post/100829199278/project-based-v-s-project-driven-learning) you will learn as you build your own project. There will be GIFs and screenshots throughout this guide to make everything as clear as possible.
 
-As you complete this guide you'll be creating a virtual pet we'll call "Pypet" (a "Python-pet"). Think of your Pypet as a modern-age tamagochi or Pokemon! With each new Python programming concepts you learn you will add new features to your Pypet.
+As you complete this guide you'll be creating a virtual pet we'll call "Pypet" (a "Python-pet"). Remember [tamagochis](https://en.wikipedia.org/wiki/Tamagotchi)? Or if you were born in the 90s then think POKEMON! With each new Python programming concepts you learn you will add new features to your "Pypet".
 
 There are no software or computer requirements for this guide except that you need access to a web broswer (which you obviously already have at this point). You will learn how to use a free tool called [Nitrous](https://www.nitrous.io/) to set up your developer environment which takes away the typical pain of setting up a coding environment. It is also cloud based so you can log in from any computer to view your code.
 
@@ -20,15 +20,15 @@ Many Python programmers (aka “Pythonistas”) love this language because it ma
 
 ##Setup
 
-To get started we'll need a development environment, aka a place to write and execute code. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get you up and running. Nitrous is a cloud-based developer environment that works really well for programming in python. Since Nitrous.io is a web application it won't matter whether you have a mac or windows or even linux computer to run and test your code. Follow the instructions below to set up your Nitrous.io Development Environment.
+To get started we'll need a development environment, aka *a place to write and execute code*. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get you up and running. Nitrous is a cloud-based developer environment that works really well for programming in python. Since Nitrous.io is a web application it won't matter whether you have a mac or windows or even linux computer to run and test your code. Follow the instructions below to set up your Nitrous.io Development Environment.
 
-1. Go to [Nitrous.io](https://www.nitrous.io/) and create an account. NOTE: You will have to check your email and activate your account before you can sign in.
+1. Go to [Nitrous.io](https://www.nitrous.io/) and create an account. *NOTE: You will have to check your email and activate your account before you can sign in.*
 2. Once you have signed in and confirmed your email click the "open dashboard" button on their [homepage](https://www.nitrous.io/). You should be prompted to create your first Nitrous "box" aka developer environment.
 3. First choose "Python/Django" as your template. Next you can rename your box anything you like or just leave it as is. Finally don't worry about the optional section that says "Download a Github repo". See image below as an example:
 
 	![](http://i.imgur.com/gBTqt8X.png)
 
-4. Click "Create Box" and then click "Next" until you can the box name you previously chose. Click on your box and then the button that says [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment). Now you have a powerful, cloud-based development environment that comes pre-installed with Python!
+4. Click "Create Box" and then click "Next" until you see your box. Click on your box and then launch your environment by clicking the [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) button. Now you have a powerful, cloud-based development environment that comes pre-installed with Python!
 
 5. Let's take a quick tour:
 ![](http://i.imgur.com/6bXzy6A.png)
