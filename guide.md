@@ -161,7 +161,7 @@ We need a way to tell Python that all of these variables represent one cat (or d
 	}
 
 	```
-	Here we’ve created a dictionary called `cat`. Each line contains a different cat attribute. Attributes have both a 		"key" (ex. `'name'`, `'weight'`, `'age'` etc) as well as a value (ex. `'Fluffy'`, `True`, `9.6` etc). Unlike assigning 	variables which use an equals sign (`name = 'Fluffy'`), dictionary attributes use a colon (`'name': 'Fluffy'`).
+	Here we’ve created a dictionary called `cat`. Each line contains a different cat attribute. Attributes have both a *key* (ex. `'name'`, `'weight'`, `'age'` etc) as well as a *value* (ex. `'Fluffy'`, `True`, `9.6` etc). Unlike assigning variables which use an equals sign (`name = 'Fluffy'`), dictionary attributes use a colon (`'name':'Fluffy'`).
 
 2. Add a print statement to view your pypet in the console. Don't forget to first save your file and then run your file in the console by typing "python pypet.py" and pressing enter.
 
