@@ -305,7 +305,7 @@ Once you have completed the steps above you should feel free to add additional f
 - keep track of a health points variable
 - create a boolean variable for sleep
 - create a `play()` function
-- create an array of phrases your python can say at random
+- create a list of phrases your python can say at random
 - get input from the user with `raw_input()`
 
 ##Conclusion & Resources
