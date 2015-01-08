@@ -192,7 +192,7 @@ def feed(pet):
 		pet['hunger'] = False
 ```
 
-Now that you have defined your function you can
+There are a couple of things to take note of here. By writing `def feed(pet):` you defining a function called `feed` that accepts one variable `pet`. You'll also notice we indent the next line `pet['hunger'] = False`. *NOTES:In python the contents of a function must be indented.*
 
 2. Add `feed(cat)` below your function to use the `feed` function you Pypet, in this case `cat`.
 
@@ -203,7 +203,7 @@ def feed(pet):
 feed(cat)
 ```
 
-By calling feed(cat) we are passing the variable cat into the function in place of ‘pet’.
+By calling `feed(cat)` we are passing the variable cat into the function in place of `pet`. `pet` acts as a placeholder for whatever variable we decide to pass into the function.
 
 __Note for Tati:__ We haven't introduced how to access values inside an object, there's a gap here. Also, we haven't talked about indentation and how that works in Python. Lastly, we haven't mentioned that the quotes (e.g. 'feed()') call a function. It might be useful to show a "hungry cat" before feeding it, feed it, and then show that it's no longer hungry.
 
