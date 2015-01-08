@@ -276,9 +276,9 @@ Let’s create another Pypet:
 ```py
 mouse = {
   'name': 'Mouse',
-  'hunger': False,
-  'weight': 1.5,
   'age': 6,
+  'weight': 1.5,
+  'hunger': False,
   'photo': '<:3 )~~~~',
 }
 ```
