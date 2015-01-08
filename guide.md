@@ -74,7 +74,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	```
 	Using an equals sign (`=`) sets a variable to a given value such as `name = 'Fluffy'`.
 	
-	Variables can store different types of data. In this case, `name` is something called a **string** because `'Fluffy'` 		has quotations around it. A **string** is just a set of characters surrounded by quotations (for example `'Bob'` or 		`'New York'`). *NOTE: strings can use either single or double quotes.* **Integers** on the other hand do not have 		quotations. Let’s look at some additional data types.
+	Variables can store different types of data. In this case, `name` is something called a **string** because `'Fluffy'` has quotations around it. A **string** is just a set of characters surrounded by quotations (for example `'Bob'` or `'New York'`). *NOTE: strings can use either single or double quotes.* **Integers** on the other hand do not have quotations. Let’s look at some additional data types.
 	
 2. Create three additional variables to track age, weight and hunger.
 
@@ -87,7 +87,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	hunger = False
 	```
 	
-	The `age` variable is an **integer** and therefore must be a whole number. The `weight` variable is a **float**. Floats 	are a numbers that can have values after the decimal point.  The `hunger` variable is a a **Boolean**. Booleans store 	a value of either `True` or `False`. *NOTE: Don't use quotations for these three data types.*
+	The `age` variable is an **integer** and therefore must be a whole number. The `weight` variable is a **float**. Floats are a numbers that can have values after the decimal point.  The `hunger` variable is a a **Boolean**. Booleans store a value of either `True` or `False`. *NOTE: Don't use quotations for these three data types.*
 
 3. Choose your Pypet's "photo". We've included a few options you can use below, but feel free to customize it. 
 *NOTE: Keep your Pypet's "photo" to just one line as it will make the initial steps easier to follow.*
@@ -137,7 +137,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	print 'Hello ' + name
 	print photo
 	```
-	By writing `print 'Hello ' + name` we just concatenated (aka *linked together*) the string `'Hello '` with the variable 	`name` so that the console will print out `Hello Fluffy`. Don't forget to type `python pypet.py` in the console (bottom 		window) and hit enter after you save to see this happen. Your console should look like:
+	By writing `print 'Hello ' + name` we just concatenated (aka *linked together*) the string `'Hello '` with the variable `name` so that the console will print out `Hello Fluffy`. Don't forget to type `python pypet.py` in the console (bottom window) and hit enter after you save to see this happen. Your console should look like:
 	
 	![](http://i.imgur.com/EDsC0Fk.png)
 	
