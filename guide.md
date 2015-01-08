@@ -72,7 +72,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	
 	name = 'Fluffy'
 	```
-	Using an `=` sets a variable to a given value such as `name = 'Fluffy'`.
+	Using an equals sign (`=`) sets a variable to a given value such as `name = 'Fluffy'`.
 	
 	Variables can store different types of data. In this case, `name` is something called a **string** because `'Fluffy'` 		has quotations around it. A **string** is just a set of characters surrounded by quotations (for example `'Bob'` or 		`'New York'`). *NOTE: strings can use either single or double quotes.* **Integers** on the other hand do not have 		quotations. Let’s look at some additional data types.
 	
@@ -137,7 +137,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	print 'Hello ' + name
 	print photo
 	```
-	By typing `print 'Hello ' + name` we just concatenated (aka *linked together*) the string `'Hello '` with the variable 	`name` so that the console will print out `Hello Fluffy`. Don't forget to type `python pypet.py` in the console (bottom 		window) and hit enter after you save to see this happen. Your console should look like:
+	By writing `print 'Hello ' + name` we just concatenated (aka *linked together*) the string `'Hello '` with the variable 	`name` so that the console will print out `Hello Fluffy`. Don't forget to type `python pypet.py` in the console (bottom 		window) and hit enter after you save to see this happen. Your console should look like:
 	
 	![](http://i.imgur.com/EDsC0Fk.png)
 	
@@ -147,7 +147,7 @@ We need a way to tell Python that all of these variables represent one cat (or d
 
 ![](http://i.imgur.com/bsj0LGE.gif)
 
-1. Place your variables in a dictionary. Try using different "key:value" pairs to customize your pypet in the text editor.
+1. Place your variables in a dictionary. Try using different values then the ones we have here!
 
 	```py
 	print 'Welcome to Pypet!'
@@ -161,7 +161,7 @@ We need a way to tell Python that all of these variables represent one cat (or d
 	}
 
 	```
-	Here we’ve created a dictionary called `cat`. Each line contains a different cat attribute. Attributes have both a 		"key" (ex. name, weight, age) as well as a value (ex. 'Fluffy', Tue, 9.6 etc). Unlike assigning variables which use an 	equals sign, dictionary attributes use a colon.
+	Here we’ve created a dictionary called `cat`. Each line contains a different cat attribute. Attributes have both a 		"key" (ex. `name`, `weight`, `age` etc) as well as a value (ex. `'Fluffy'`, `True`, `9.6` etc). Unlike assigning variables which use an 	equals sign (`name = 'Fluffy'`), dictionary attributes use a colon (`'name': 'Fluffy'`).
 
 2. Add a print statement to view your pypet in the console. Don't forget to run your file in the console by typing "python pypet.py" and pressing enter
 
