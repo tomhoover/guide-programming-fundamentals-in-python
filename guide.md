@@ -135,7 +135,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	print 'Hello ' + name
 	print photo
 	```
-	By typing `print 'Hello ' + name` we just concatenated (aka *linked together*) the string `'Hello '` with the variable 	`name` so that the console will print out `Hello Fluffy`. Don't forget to type `python pypet.py` in the console (bottom 		window) and hit enter to see this happen. Your console should look like:
+	By typing `print 'Hello ' + name` we just concatenated (aka *linked together*) the string `'Hello '` with the variable 	`name` so that the console will print out `Hello Fluffy`. Don't forget to type `python pypet.py` in the console (bottom 		window) and hit enter after you save to see this happen. Your console should look like:
 	
 	![](http://i.imgur.com/teThhJk.png)
 	
