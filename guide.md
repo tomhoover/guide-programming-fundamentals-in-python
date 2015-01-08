@@ -55,9 +55,9 @@ Here is a Gif demonstrating how to run your first python program. Feel free to e
 
 ![](http://i.imgur.com/0YqbGNh.png)
 
-You’ve just written your first print statement. The print statement is a python function which prints things in the console — it's very handy for learning Python and debugging your code.
+You’ve just written your first print statement. [*celebratory dance*](http://media.giphy.com/media/VMqSqPxywbtCM/giphy.gif)
 
-If you're stuck, take another look at the gif above or tweet [@Thinkful](https://twitter.com/thinkful). We'd love to help!
+The print statement is a python function which prints things in the console — it's very handy for learning Python and debugging your code. If you're stuck, take another look at the gif above or tweet [@Thinkful](https://twitter.com/thinkful). We'd love to help!
 
 ##Creating your Pypet
 
@@ -65,7 +65,7 @@ If you're stuck, take another look at the gif above or tweet [@Thinkful](https:/
 
 Variables are a way of storing information in Python. Below we'll create different variables for our pypet such as name, weight, etc.
 
-1. Create a variable called `name` equal to `'Fluffy'`.
+1. Create a variable called `name` equal to `'Fluffy'` (or `'Spike'` or `'Sir Patrick'`).
 	
 	```py
 	print 'Welcome to Pypet!'
@@ -85,7 +85,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	hunger = False
 	```
 	
-	The `age` variable is an **integer** and therefore must be a whole number. The `weight` variable is a **float**. Floats 	are a numbers that can have values after the decimal point.  The `hunger` variable is a a **Boolean**. Booleans stores 	a value of either `True` or `False`. *NOTE: Don't use quotations for these three data types.*
+	The `age` variable is an **integer** and therefore must be a whole number. The `weight` variable is a **float**. Floats 	are a numbers that can have values after the decimal point.  The `hunger` variable is a a **Boolean**. Booleans store 	a value of either `True` or `False`. *NOTE: Don't use quotations for these three data types.*
 
 3. Choose your Pypet's "photo". We've included a few options you can use below, but feel free to customize it. 
 *NOTE: Keep your Pypet's "photo" to just one line as it will make the initial steps easier to follow.*
@@ -109,7 +109,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	
 	--------------------------
 
-4. Next include another variable that is a **string** containing this “photo” of our pet.
+4. Now add another variable that is a **string** containing this “photo” of our pet.
 
 	```py
 	print 'Welcome to Pypet!'
@@ -132,10 +132,10 @@ Variables are a way of storing information in Python. Below we'll create differe
 	hunger = False
 	photo = '(=^o.o^=)__'
 	
-	print 'Hello ' + name + '!'
+	print 'Hello ' + name
 	print photo
 	```
-	Don't forget to run `python pypet.py` in the console (bottom window). Your console should look like:
+	By typing `print 'Hello ' + name` we just concatenated (aka *linked together*) the string `'Hello '` with the variable 	`name` so that the console will print out `Hello Fluffy`. Don't forget to type `python pypet.py` in the console (bottom 		window) and hit enter to see this happen. Your console should look like:
 	
 	![](http://i.imgur.com/teThhJk.png)
 	
