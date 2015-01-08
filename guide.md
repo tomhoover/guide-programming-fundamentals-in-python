@@ -53,7 +53,7 @@ Here is a Gif demonstrating how to run your first python program. Feel free to e
 
 3. Now type `python pypet.py` into your Nitrous console (in the bottom panel) and hit enter. By doing this you are telling your console to open the file `pypet.py` and execute it using the program called `python`. The console will output “Welcome to Pypet!”.
 
-![](http://i.imgur.com/0YqbGNh.png)
+![](http://i.imgur.com/QNGI0Xx.png)
 
 You’ve just written your first print statement. [*celebratory dance time*](http://media.giphy.com/media/VMqSqPxywbtCM/giphy.gif)
 
