@@ -39,7 +39,7 @@ To get started we'll need a "development environment", aka *a place to write and
 
 ##Running Python for the first time
 
-Here is a GIF demonstrating how to run your first python program. Feel free to either skip down and read the steps in the text below or take a look at the Gif first.
+Here is a GIF demonstrating how to run your first python program. Feel free to either skip down and read the steps in the text below or take a look at the GIF first.
 
 ![](http://i.imgur.com/kDyVy2I.gif)
 
