@@ -193,7 +193,7 @@ We need a way to tell Python that all of these variables represent one cat (or d
 	```
 	You can access variables in an array by using the format `dictionary['attribute']` such as `cat['name']`.
 
-Make sure to take another look at the gif above if you get stuck.
+Make sure to take another look at the GIF above if you get stuck.
 
 ##Feeding your Pypet - Functions
 
