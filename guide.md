@@ -74,7 +74,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	```
 	Using an equals sign (`=`) sets a variable to a given value such as `name = 'Fluffy'`.
 	
-	Variables can store different types of data. In this case, `name` is something called a **string** because `'Fluffy'` has quotations around it. A **string** is just a set of characters surrounded by quotations (for example `'Bob'` or `'New York'`). *NOTE: strings can use either single or double quotes.* **Integers** on the other hand do not have quotations. Let’s look at some additional data types.
+	Variables can store different types of data. In this case, `name` is something called a **string** because `'Fluffy'` has quotations around it. A **string** is just a set of characters surrounded by quotations (for example `'Bob'` or `'New York'`). *NOTE: Strings can use either single or double quotes in Python.* **Integers** on the other hand do not have quotations. Let’s look at some additional data types.
 	
 2. Create three additional variables to track `age`, `weight` and `hungry`.
 
