@@ -243,7 +243,7 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 	
 ## If Statements
 
-But what if our pypet is not hungry? We need to take into account whether or not the hungry variable is set to `True` or `False`. In order to know whether our Pypet is hungry, we are going to use an if statement.
+But what if our pypet is not hungry? We need to take into account whether or not the hungry variable is set to `True` or `False`. In order to know whether our Pypet is hungry, we are going to use an **if statement**.
 
 ![](http://i.imgur.com/Axp2Smt.gif)
 
