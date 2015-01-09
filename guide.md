@@ -279,7 +279,7 @@ If the Pypet is hungry the program will set his hungry variable to `False` and i
 
 2. Add another `feed(cat)` below your function and try feeding the cat twice to see if the function worked!
 
-	```
+	```py
 	def feed(pet):
 	    if pet['hungry'] == True:
         	pet['hungry'] = False
