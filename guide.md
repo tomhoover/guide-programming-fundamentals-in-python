@@ -11,6 +11,7 @@ This guide was created for complete beginners (i.e. with no programming or compu
 As you complete this guide you'll be creating a virtual pet we'll call "Pypet"* (a "Python-pet"). Remember [tamagochis](https://en.wikipedia.org/wiki/Tamagotchi)? (Or if you were born in the 90s then think POKEMON!) With each new Python programming concepts you learn, you will add new features to your "Pypet".
 
 *Exhibit A, a Pycat
+
 (=^o.o^=)__/
 
 There are no software or computer requirements for this guide except that you need access to a web broswer (which you obviously already have at this point). You will learn how to use a free tool called [Nitrous](https://www.nitrous.io/) to set up your developer environment which takes away the typical pain of setting up a coding environment. It is also cloud based so you can log in from any computer to view your code.
