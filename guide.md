@@ -10,7 +10,7 @@ This guide was created for complete beginners (i.e. with no programming or compu
 
 As you complete this guide you'll be creating a virtual pet we'll call "Pypet" (a "Python-pet"). Remember [tamagochis](https://en.wikipedia.org/wiki/Tamagotchi)? (Or if you were born in the 90s then think POKEMON!) With each new Python programming concepts you learn, you will add new features to your "Pypet".
 
-There are no software or computer requirements for this guide except that you need access to a web broswer (which you obviously already have at this point). You will learn how to use a free tool called [Nitrous](https://www.nitrous.io/) to set up your developer environment which takes away the typical pain of setting up a coding environment. It is also cloud based so you can log in from any computer to view your code.
+There are no software or computer requirements for this guide except that you need access to a web browser (which you obviously already have at this point). You will learn how to use a free tool called [Nitrous](https://www.nitrous.io/) to set up your developer environment which takes away the typical pain of setting up a coding environment. It is also cloud based so you can log in from any computer to view your code.
 
 ###What is Python?
 
@@ -20,18 +20,18 @@ Many Python programmers (aka “Pythonistas”) love this language because it ma
 
 ##Setup
 
-To get started we'll need a "development environment", aka *a place to write and execute code*. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get you up and running. Nitrous is a cloud-based developer environment that works well for programming in python. Since Nitrous.io is a web application it won't matter whether you have a mac or windows or even linux computer to run and test your code. Follow the instructions below to set up your Nitrous.io Development Environment.
+To get started we'll need a "development environment", aka *a place to write and execute code*. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get you up and running. Nitrous is a cloud-based developer environment that works well for programming in python. Since Nitrous.io is a web application it won't matter whether you have a Mac or Windows or even Linux computer to run and test your code. Follow the instructions below to set up your Nitrous.io Development Environment.
 
 1. Go to [Nitrous.io](https://www.nitrous.io/) and create an account. *NOTE: You will have to check your email and activate your account before you can sign in.*
-2. Once you have signed in and confirmed your email click the "open dashboard" button on their [homepage](https://www.nitrous.io/). You should be prompted to create your first Nitrous "box" aka developer environment.
-3. First choose "Python/Django" as your template. Next you can rename your box anything you like or just leave it as is. Finally don't worry about the optional section that says "Download a Github repo". See image below as an example:
+2. Once you have confirmed your email and signed in, click the "open dashboard" button on their [homepage](https://www.nitrous.io/). You should be prompted to create your first Nitrous "box" aka developer environment.
+3. First choose "Python/Django" as your template. Next you can rename your box to anything you like or just leave it as is. Finally, don't worry about the optional section that says "Download a GitHub repo". Here's an example:
 
 	![](http://i.imgur.com/gBTqt8X.png)
 
 4. Click "Create Box" and then click "Next" until you see your box. Click on your box and then launch your environment by clicking the orange IDE button (which just stands for Integrated Development Environment). Now you have a powerful, cloud-based development environment that comes pre-installed with Python!
 
 5. Let's take a quick tour:
-    - In the **left panel**, you’ll see the File Browser. Here you can navigate the files in your home folder. At this point, you will just have the "workspace" folder and a README file introducing you to Nitrous.IO. When you have more files, you can open them in Nitrous.IO’s text editor by double clicking on them in the File Broswer.
+    - In the **left panel**, you’ll see the File Browser. Here you can navigate the files in your home folder. At this point, you will just have the "workspace" folder and a README file introducing you to Nitrous.IO. When you have more files, you can open them in Nitrous.IO’s text editor by double clicking on them in the File Browser.
     - The **middle panel** is the Text Editor. This is where you can write and edit code.
     - The **right panel** is for chatting if you’re using Nitrous.io in collaborative mode. Close this window for now by clicking the X in the upper right hand corner so you get more screen real estate.
     - The **bottom panel** is your console for actually running your python file.
@@ -40,7 +40,7 @@ To get started we'll need a "development environment", aka *a place to write and
 
 ##Running Python for the first time
 
-Here is a GIF demonstrating how to run your first python program. Feel free to either skip down and read the steps in the text below or take a look at the GIF first.
+Here is a GIF demonstrating how to run your first python program. Feel free to either skip down and read the steps in the text below.
 
 ![](http://i.imgur.com/kDyVy2I.gif)
 
@@ -64,7 +64,7 @@ If you're stuck, take another look at the GIF above or tweet [@Thinkful](https:/
 
 ###Variables
 
-Variables are a way of storing information in Python. Below we'll create different variables for our pypet such as name, weight, etc. Below is a GIF that shows how you will create variables for your Pypet in this section. You can refer back to this as you follow along with the instructions below.
+Variables are a way of storing information in Python. Below we'll create different variables for our Pypet such as name, weight, etc. Below is a GIF that shows how you will create variables for your Pypet in this section. You can refer back to this as you follow along with the instructions below.
 
 ![](http://i.imgur.com/6o6eiaA.gif)
 
