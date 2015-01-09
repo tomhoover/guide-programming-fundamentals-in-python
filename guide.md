@@ -71,8 +71,6 @@ Variables are a way of storing information in Python. Below we'll create differe
 1. Create a variable called `name` equal to `'Fluffy'` (or `'Spike'` or `'Sir Patrick'`).
 	
 	```py
-	print 'Welcome to Pypet!'
-	
 	name = 'Fluffy'
 	```
 	Using an equals sign (`=`) sets a variable to a given value such as `name = 'Fluffy'`.
@@ -82,8 +80,6 @@ Variables are a way of storing information in Python. Below we'll create differe
 2. Create three additional variables to track `age`, `weight` and `hungry`.
 
 	```py
-	print 'Welcome to Pypet!'
-	
 	name = 'Fluffy'
 	age = 5
 	weight = 9.5
@@ -117,8 +113,6 @@ Variables are a way of storing information in Python. Below we'll create differe
 4. Now add another variable that is a **string** containing this `photo` variable of our pet.
 
 	```py
-	print 'Welcome to Pypet!'
-	
 	name = 'Fluffy'
 	age = 5
 	weight = 9.5
@@ -129,8 +123,6 @@ Variables are a way of storing information in Python. Below we'll create differe
 5. Add some print statements to your code so you can see your Pypet in the console.
 
 	```py
-	print 'Welcome to Pypet!'
-	
 	name = 'Fluffy'
 	age = 5
 	weight = 9.5
@@ -153,8 +145,6 @@ We need a way to tell Python that all of these variables represent one cat (or d
 1. Place your variables in a dictionary. Try using different values then the ones we have here!
 
 	```py
-	print 'Welcome to Pypet!'
-	
 	cat = {
 	  'name': 'Fluffy',
 	  'hungry': True,
