@@ -1,5 +1,5 @@
 #Programming Fundamentals in Python
-
+By: [Tatiana Tylosky](https://twitter.com/tatianatylosky)
 Approximate time ~ 2 hours
 
 ##Introduction
