@@ -140,7 +140,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 
 We need a way to tell Python that all of these variables represent one cat (or dog, fish, creature etc). One way to do this is to use a Python **dictionary**. Dictionaries are a way of storing multiple variables that contain different values. Here is another GIF that you can refer back to as you follow along with the instructions below.
 
-![](http://i.imgur.com/wML3X8O.gif)
+![](http://i.imgur.com/yXLUVFA.gif)
 
 1. Place your variables in a dictionary. Try using different values then the ones we have here!
 
