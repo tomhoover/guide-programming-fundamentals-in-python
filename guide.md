@@ -76,7 +76,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	
 	Variables can store different types of data. In this case, `name` is something called a **string** because `'Fluffy'` has quotations around it. A **string** is just a set of characters surrounded by quotations (for example `'Bob'` or `'New York'`). *NOTE: strings can use either single or double quotes.* **Integers** on the other hand do not have quotations. Let’s look at some additional data types.
 	
-2. Create three additional variables to track age, weight and hungry.
+2. Create three additional variables to track `age`, `weight` and `hungry`.
 
 	```py
 	print 'Welcome to Pypet!'
@@ -314,7 +314,7 @@ What if we want to feed all the pets in our list? If we want to run a function o
 ```py
 for pet in pets:
 	feed(pet)
-  print pet
+  	print pet
 ```
 
 Tweet a screenshot of your pypets [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world!
