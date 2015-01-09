@@ -55,7 +55,7 @@ Here is a GIF demonstrating how to run your first python program. Feel free to e
 
 ![](http://i.imgur.com/QNGI0Xx.png)
 
-You’ve just written your first print statement. [*celebratory dance time*](http://media.giphy.com/media/VMqSqPxywbtCM/giphy.gif). The print statement is a python function which prints things in the console — it's very handy for learning Python and debugging your code. 
+You’ve just written your first print statement. [*Celebratory dance time*](http://media.giphy.com/media/VMqSqPxywbtCM/giphy.gif). The print statement is a python function which prints things in the console — it's very handy for learning Python and debugging your code. 
 
 If you're stuck, take another look at the gif above or tweet [@Thinkful](https://twitter.com/thinkful). We'd love to help!
 
