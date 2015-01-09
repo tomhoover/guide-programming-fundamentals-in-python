@@ -243,27 +243,30 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 	
 ## If Statements
 
-But what if our pypet is not hungry? We need to take into account whether or not the hungry variable is set to `True` or `False`. In order to know whether our Pypet is hungry, we are going to use an if statement. 
+But what if our pypet is not hungry? We need to take into account whether or not the hungry variable is set to `True` or `False`. In order to know whether our Pypet is hungry, we are going to use an if statement.
+
+![](http://i.imgur.com/Axp2Smt.gif)
 
 If the Pypet is hungry the program will set his hungry variable to `False` and increase his weight. If the Pypet is not hungry then it will print `The Pypet is not hungry` in the console.
 
 1. Add an if statement inside of your function.
 
-```py
-def feed(pet):
-	if pet['hunger']:
-		pet['hunger'] = False
-		pet['weight'] = pet['weight'] + 1
-	else:
-		print 'The Pypet is not hungry!'
+	```py
+	def feed(pet):
+		if pet['hunger']:
+			pet['hunger'] = False
+			pet['weight'] = pet['weight'] + 1
+		else:
+			print 'The Pypet is not hungry!'
+	
+	print cat
+	feed(cat)
+	print cat
+	```
 
-print cat
-feed(cat)
-print cat
-```
-Add another `feed(cat)` below your function to try feeding the cat twice to see if the function worked!
+2. Add another `feed(cat)` below your function and try feeding the cat twice to see if the function worked!
 
-![](http://i.imgur.com/Axp2Smt.gif)
+If you get stuck don't forget to look back at the GIF above!
 
 ##Friends for your Pypet - For Loops and Lists
 
