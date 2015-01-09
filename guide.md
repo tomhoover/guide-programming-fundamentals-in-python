@@ -271,17 +271,19 @@ If you get stuck don't forget to look back at the GIF above!
 
 ##Friends for your Pypet - For Loops and Lists
 
-Let’s create another Pypet:
+1. Let’s create another Pypet using a dictionary. Add (or customize) the following code below your previous pypet dictionary.
 
-```py
-mouse = {
-  'name': 'Mouse',
-  'age': 6,
-  'weight': 1.5,
-  'hunger': False,
-  'photo': '<:3 )~~~~',
-}
-```
+	```py
+	mouse = {
+	  'name': 'Mouse',
+	  'age': 6,
+	  'weight': 1.5,
+	  'hunger': False,
+	  'photo': '<:3 )~~~~',
+	}
+	```
+
+	*NOTE: Make sure to place this new pypet above your function (use the GIF as reference if you are confused)*
 
 Now that we have more than one Pypet we can store them in a Python list. A [list](http://www.tutorialspoint.com/python/python_lists.htm) is another data type; lists stores variables in order. If python isn't the first programming language you are learning, you may have heard of this same concept in other programming languages as an [array](http://techterms.com/definition/array).
 
