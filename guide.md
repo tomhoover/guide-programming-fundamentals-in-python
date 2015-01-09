@@ -63,7 +63,7 @@ If you're stuck, take another look at the GIF above or tweet [@Thinkful](https:/
 
 ###Variables
 
-Variables are a way of storing information in Python. Below we'll create different variables for our pypet such as name, weight, etc.
+Variables are a way of storing information in Python. Below we'll create different variables for our Pypet such as name, weight, etc.
 
 1. Create a variable called `name` equal to `'Fluffy'` (or `'Spike'` or `'Sir Patrick'`).
 	
@@ -163,7 +163,7 @@ We need a way to tell Python that all of these variables represent one cat (or d
 	```
 	Here we’ve created a dictionary called `cat`. Each line contains a different cat attribute. Attributes have both a *key* (ex. `'name'`, `'weight'`, `'age'` etc) as well as a *value* (ex. `'Fluffy'`, `True`, `9.6` etc). Unlike assigning variables which use an equals sign (`name = 'Fluffy'`), dictionary attributes use a colon (`'name':'Fluffy'`).
 
-2. Add a print statement to view your pypet in the console. Don't forget to first save your file and then run your file in the console by typing "python pypet.py" and pressing enter.
+2. Add a print statement to view your Pypet in the console. Don't forget to first save your file and then run your file in the console by typing "python pypet.py" and pressing enter.
 
 	```py
 	cat = {
@@ -197,7 +197,7 @@ Make sure to take another look at the GIF above if you get stuck.
 
 ##Feeding your Pypet - Functions
 
-Let's “feed” our pypet using a Python function. A [function](http://www.tutorialspoint.com/python/python_functions.htm) is a block of organized, reusable code that is used to perform a single action. First, we must define our function — `feed` — which changes our pypet’s `hungry` attribute to `False` to show that it is no longer hungry.
+Let's “feed” our Pypet using a Python function. A [function](http://www.tutorialspoint.com/python/python_functions.htm) is a block of organized, reusable code that is used to perform a single action. First, we must define our function — `feed` — which changes our Pypet’s `hungry` attribute to `False` to show that it is no longer hungry.
 
 1. Create this simple function by writing the following below your other code.
 
@@ -229,7 +229,7 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 			cat['weight'] = cat['weight'] + 1
 	```
 
-	Use this notation to increase floats and integers. Try setting your original pypet’s hungry variable to True and then call the function by writing `feed(cat)` at the bottom like so:
+	Use this notation to increase floats and integers. Try setting your original Pypet’s hungry variable to True and then call the function by writing `feed(cat)` at the bottom like so:
 
 	```py
 	print 'Welome to Pypet!'
@@ -257,7 +257,7 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 	
 ## If Statements
 
-But what if our pypet is not hungry? We need to take into account whether or not the hungry variable is set to `True` or `False`. In order to know whether our Pypet is hungry, we are going to use an **if statement**. In Python, if statements check to see whether a specific condition (such as whether or not `hungry = True`). Take a look at the GIF below to get an idea of what this looks like.
+But what if our Pypet is not hungry? We need to take into account whether or not the hungry variable is set to `True` or `False`. In order to know whether our Pypet is hungry, we are going to use an **if statement**. In Python, if statements check to see whether a specific condition (such as whether or not `hungry = True`). Take a look at the GIF below to get an idea of what this looks like.
 
 ![](http://i.imgur.com/Axp2Smt.gif)
 
@@ -285,7 +285,7 @@ If you get stuck don't forget to look back at the GIF above!
 
 ##Friends for your Pypet - Lists
 
-1. Let’s create another Pypet using a dictionary. Add (or customize) the following code below your previous pypet dictionary.
+1. Let’s create another Pypet using a dictionary. Add (or customize) the following code below your previous Pypet dictionary.
 
 	```py
 	mouse = {
@@ -297,9 +297,9 @@ If you get stuck don't forget to look back at the GIF above!
 	}
 	```
 
-	*NOTE: Make sure to place this new pypet above your function (use the GIF as reference if you are confused)*
+	*NOTE: Make sure to place this new Pypet above your function (use the GIF as reference if you are confused)*
 	
-2. Create a list to hold both of your pypets using `pets = [cat, mouse]`.
+2. Create a list to hold both of your Pypets using `pets = [cat, mouse]`.
 
 	```py
 	pets = [cat, mouse]
@@ -317,7 +317,7 @@ for pet in pets:
   	print pet
 ```
 
-Tweet a screenshot of your pypets [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world!
+Tweet a screenshot of your Pypets [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world!
 
 BONUS: 
 Once you have completed the steps above you should feel free to add additional features that you design yourself! Here are some ideas to get you started:
