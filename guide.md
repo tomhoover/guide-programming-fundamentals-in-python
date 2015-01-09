@@ -333,7 +333,8 @@ for pet in pets:
 
 Take a screenshot of your Pypets and tweet them [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world!
 
-BONUS: 
+##BONUS: 
+
 Once you have completed the steps above, you should feel free to add additional features that you design yourself! Here are some ideas to get you started:
 
 - keep track of a health points variable
