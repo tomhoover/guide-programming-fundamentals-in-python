@@ -195,6 +195,8 @@ Make sure to take another look at the GIF above if you get stuck.
 
 Let's “feed” our pypet using a Python function. A [function](http://www.tutorialspoint.com/python/python_functions.htm) is a block of organized, reusable code that is used to perform a single action. First, we must define our function — `feed` — which changes our pypet’s `hungry` attribute to `False` to show that it is no longer hungry.
 
+![](http://i.imgur.com/dmjTM4H.gif)
+
 1. Create this simple function by writing the following below your other code.
 
 	```py
