@@ -84,7 +84,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	name = 'Fluffy'
 	age = 5
 	weight = 9.5
-	hunger = False
+	hungry = False
 	```
 	
 	The `age` variable is an **integer** and therefore must be a whole number. The `weight` variable is a **float**. Floats are a numbers that can have values after the decimal point.  The `hunger` variable is a a **Boolean**. Booleans store a value of either `True` or `False`. *NOTE: Don't use quotations for these three data types.*
