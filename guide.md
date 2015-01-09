@@ -225,7 +225,9 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 			cat['weight'] = cat['weight'] + 1
 	```
 
-	Use this notation to increase floats and integers. Try setting your original Pypet’s hungry variable to True and then call the function by writing `feed(cat)` at the bottom like so:
+	Use this notation to increase floats and integers. 
+	
+4. Try setting your original Pypet’s hungry variable to `True` and include a `print cat` statement after `feed(cat)` to see if your Pypet's `hungry` variable changed to `False` and their `weight` variable incrased.
 
 	```py
 	print 'Welome to Pypet!'
@@ -238,18 +240,16 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 	  'photo': '(=^o.o^=)__',
 	}
 	
-	print cat
-	
 	def feed(pet):
 			pet['hungry'] = False
 			cat['weight'] = cat['weight'] + 1
 	
+	print cat
 	feed(cat)
-	
 	print cat
 	```
 
-	When the cat is printed out the second time his weight attribute will have increased.
+	When the cat is printed out the second time his weight attribute will have increased. Don't forget to save and then run your python file from the console.
 	
 ## If Statements
 
