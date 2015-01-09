@@ -257,7 +257,7 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 
 But what if our Pypet is not hungry? We need to take into account whether or not the hungry variable is set to `True` or `False`. In order to know whether our Pypet is hungry, we are going to use an **if statement**. In Python, if statements check to see whether a specific condition (such as whether or not `hungry = True`). Take a look at the GIF below to get an idea of what this looks like.
 
-![](http://i.imgur.com/Axp2Smt.gif)
+![](http://i.imgur.com/gKijQky.gif)
 
 If the Pypet is hungry the program will set his hungry variable to `False` and increase his weight. If the Pypet is not hungry then it will print `The Pypet is not hungry!` in the console.
 
