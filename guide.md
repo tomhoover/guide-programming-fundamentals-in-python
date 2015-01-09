@@ -20,7 +20,7 @@ Many Python programmers (aka “Pythonistas”) love this language because it ma
 
 ##Setup
 
-To get started we'll need a "development environment", aka *a place to write and execute code*. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get you up and running. Nitrous is a cloud-based developer environment that works really well for programming in python. Since Nitrous.io is a web application it won't matter whether you have a mac or windows or even linux computer to run and test your code. Follow the instructions below to set up your Nitrous.io Development Environment.
+To get started we'll need a "development environment", aka *a place to write and execute code*. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get you up and running. Nitrous is a cloud-based developer environment that works well for programming in python. Since Nitrous.io is a web application it won't matter whether you have a mac or windows or even linux computer to run and test your code. Follow the instructions below to set up your Nitrous.io Development Environment.
 
 1. Go to [Nitrous.io](https://www.nitrous.io/) and create an account. *NOTE: You will have to check your email and activate your account before you can sign in.*
 2. Once you have signed in and confirmed your email click the "open dashboard" button on their [homepage](https://www.nitrous.io/). You should be prompted to create your first Nitrous "box" aka developer environment.
@@ -28,14 +28,15 @@ To get started we'll need a "development environment", aka *a place to write and
 
 	![](http://i.imgur.com/gBTqt8X.png)
 
-4. Click "Create Box" and then click "Next" until you see your box. Click on your box and then launch your environment by clicking the [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) button. Now you have a powerful, cloud-based development environment that comes pre-installed with Python!
+4. Click "Create Box" and then click "Next" until you see your box. Click on your box and then launch your environment by clicking the orange IDE button (which just stands for Integrated Development Environment). Now you have a powerful, cloud-based development environment that comes pre-installed with Python!
 
 5. Let's take a quick tour:
-![](http://i.imgur.com/6bXzy6A.png)
     - In the **left panel**, you’ll see the File Browser. Here you can navigate the files in your home folder. At this point, you will just have the "workspace" folder and a README file introducing you to Nitrous.IO. When you have more files, you can open them in Nitrous.IO’s text editor by double clicking on them in the File Broswer.
     - The **middle panel** is the Text Editor. This is where you can write and edit code.
     - The **right panel** is for chatting if you’re using Nitrous.io in collaborative mode. Close this window for now by clicking the X in the upper right hand corner so you get more screen real estate.
     - The **bottom panel** is your console for actually running your python file.
+    
+![](http://i.imgur.com/6bXzy6A.png)
 
 ##Running Python for the first time
 
