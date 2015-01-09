@@ -269,7 +269,7 @@ If the Pypet is hungry the program will set his hungry variable to `False` and i
 
 If you get stuck don't forget to look back at the GIF above!
 
-##Friends for your Pypet - For Loops and Lists
+##Friends for your Pypet - Lists
 
 1. Let’s create another Pypet using a dictionary. Add (or customize) the following code below your previous pypet dictionary.
 
@@ -284,12 +284,16 @@ If you get stuck don't forget to look back at the GIF above!
 	```
 
 	*NOTE: Make sure to place this new pypet above your function (use the GIF as reference if you are confused)*
+	
+2. Create a list to hold both of your pypets using `pets = [cat, mouse]`.
 
-Now that we have more than one Pypet we can store them in a Python list. A [list](http://www.tutorialspoint.com/python/python_lists.htm) is another data type; lists stores variables in order. If python isn't the first programming language you are learning, you may have heard of this same concept in other programming languages as an [array](http://techterms.com/definition/array).
+	```py
+	pets = [cat, mouse]
+	```
 
-```py
-pets = [cat, mouse]
-```
+	Now that we have more than one Pypet we can store them in a Python list. A [list](http://www.tutorialspoint.com/python/python_lists.htm) is another data type; lists stores variables in order. If python isn't the first programming language you are learning, you may have heard of this same concept in other programming languages as an [array](http://techterms.com/definition/array).
+
+##For loops
 
 What if we want to feed all the pets in our list? If we want to run a function on each variable in a list we can use something in Python called a loop. The [for loop](http://www.tutorialspoint.com/python/python_for_loop.htm) in Python has the ability to iterate over the items of any sequence, such as a list.
 
