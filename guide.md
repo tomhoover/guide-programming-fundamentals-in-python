@@ -76,7 +76,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	
 	Variables can store different types of data. In this case, `name` is something called a **string** because `'Fluffy'` has quotations around it. A **string** is just a set of characters surrounded by quotations (for example `'Bob'` or `'New York'`). *NOTE: strings can use either single or double quotes.* **Integers** on the other hand do not have quotations. Let’s look at some additional data types.
 	
-2. Create three additional variables to track age, weight and hunger.
+2. Create three additional variables to track age, weight and hungry.
 
 	```py
 	print 'Welcome to Pypet!'
@@ -87,7 +87,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	hungry = False
 	```
 	
-	The `age` variable is an **integer** and therefore must be a whole number. The `weight` variable is a **float**. Floats are a numbers that can have values after the decimal point.  The `hunger` variable is a a **Boolean**. Booleans store a value of either `True` or `False`. *NOTE: Don't use quotations for these three data types.*
+	The `age` variable is an **integer** and therefore must be a whole number. The `weight` variable is a **float**. Floats are a numbers that can have values after the decimal point.  The `hungry` variable is a a **Boolean**. Booleans store a value of either `True` or `False`. *NOTE: Don't use quotations for these three data types.*
 
 3. Choose your Pypet's "photo". We've included a few options you can use below, but feel free to customize it. 
 *NOTE: Keep your Pypet's "photo" to just one line as it will make the initial steps easier to follow.*
@@ -119,7 +119,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	name = 'Fluffy'
 	age = 5
 	weight = 9.5
-	hunger = False
+	hungry = False
 	photo = '(=^o.o^=)__'
 	```
 
@@ -131,7 +131,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	name = 'Fluffy'
 	age = 5
 	weight = 9.5
-	hunger = False
+	hungry = False
 	photo = '(=^o.o^=)__'
 	
 	print 'Hello ' + name
@@ -154,7 +154,7 @@ We need a way to tell Python that all of these variables represent one cat (or d
 	
 	cat = {
 	  'name': 'Fluffy',
-	  'hunger': True,
+	  'hungry': True,
 	  'weight': 9.5,
 	  'age': 5,
 	  'photo': '(=^o.o^=)__',
@@ -168,7 +168,7 @@ We need a way to tell Python that all of these variables represent one cat (or d
 	```py
 	cat = {
 	  'name': 'Fluffy',
-	  'hunger': True,
+	  'hungry': True,
 	  'weight': 9.5,
 	  'age': 5,
 	  'photo': '(=^o.o^=)__',
@@ -182,7 +182,7 @@ We need a way to tell Python that all of these variables represent one cat (or d
 	```py
 	cat = {
 	  'name': 'Fluffy',
-	  'hunger': True,
+	  'hungry': True,
 	  'weight': 9.5,
 	  'age': 5,
 	  'photo': '(=^o.o^=)__',
@@ -197,22 +197,22 @@ Make sure to take another look at the GIF above if you get stuck.
 
 ##Feeding your Pypet - Functions
 
-Let's “feed” our pypet using a Python function. A [function](http://www.tutorialspoint.com/python/python_functions.htm) is a block of organized, reusable code that is used to perform a single action. First, we must define our function — `feed` — which changes our pypet’s `hunger` attribute to `False` to show that it is no longer hungry.
+Let's “feed” our pypet using a Python function. A [function](http://www.tutorialspoint.com/python/python_functions.htm) is a block of organized, reusable code that is used to perform a single action. First, we must define our function — `feed` — which changes our pypet’s `hungry` attribute to `False` to show that it is no longer hungry.
 
 1. Create this simple function by writing the following below your other code.
 
 	```py
 	def feed(pet):
-			pet['hunger'] = False
+			pet['hungry'] = False
 	```
 	
-	There are a couple of things to take note of here. By writing `def feed(pet):` you defining a function called `feed` that accepts one variable `pet`. You'll also notice we indent the next line `pet['hunger'] = False`. *NOTE: In python the contents of a function must be indented.*
+	There are a couple of things to take note of here. By writing `def feed(pet):` you defining a function called `feed` that accepts one variable `pet`. You'll also notice we indent the next line `pet['hungry'] = False`. *NOTE: In python the contents of a function must be indented.*
 
 2. Add `feed(cat)` below your function to use the `feed` function on your Pypet, in this case `cat`.
 
 	```py
 	def feed(pet):
-			pet['hunger'] = False
+			pet['hungry'] = False
 	
 	feed(cat)
 	```
@@ -225,7 +225,7 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 
 	```py
 	def feed(cat):
-			cat['hunger'] = False
+			cat['hungry'] = False
 			cat['weight'] = cat['weight'] + 1
 	```
 
@@ -245,7 +245,7 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 	print cat
 	
 	def feed(pet):
-			pet['hunger'] = False
+			pet['hungry'] = False
 			cat['weight'] = cat['weight'] + 1
 	
 	feed(cat)
@@ -257,7 +257,7 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 	
 ## If Statements
 
-But what if our pypet is not hungry? We need to take into account whether or not the hungry variable is set to `True` or `False`. In order to know whether our Pypet is hungry, we are going to use an **if statement**. In Python, if statements check to see whether a specific condition (such as whether or not `hunger = True`). Take a look at the GIF below to get an idea of what this looks like.
+But what if our pypet is not hungry? We need to take into account whether or not the hungry variable is set to `True` or `False`. In order to know whether our Pypet is hungry, we are going to use an **if statement**. In Python, if statements check to see whether a specific condition (such as whether or not `hungry = True`). Take a look at the GIF below to get an idea of what this looks like.
 
 ![](http://i.imgur.com/Axp2Smt.gif)
 
@@ -267,8 +267,8 @@ If the Pypet is hungry the program will set his hungry variable to `False` and i
 
 	```py
 	def feed(pet):
-		if pet['hunger'] == True:
-			pet['hunger'] = False
+		if pet['hungry'] == True:
+			pet['hungry'] = False
 			pet['weight'] = pet['weight'] + 1
 		else:
 			print 'The Pypet is not hungry!'
@@ -277,7 +277,7 @@ If the Pypet is hungry the program will set his hungry variable to `False` and i
 	feed(cat)
 	print cat
 	```
-	Notice that we use two equals sign (`==`) to check a conditon (for example `pet['hunger'] == True`). Only if the condition is not met the code beneath the `else:` will execute.
+	Notice that we use two equals sign (`==`) to check a conditon (for example `pet['hungry'] == True`). Only if the condition is not met the code beneath the `else:` will execute.
 
 2. Add another `feed(cat)` below your function and try feeding the cat twice to see if the function worked!
 
@@ -292,7 +292,7 @@ If you get stuck don't forget to look back at the GIF above!
 	  'name': 'Mouse',
 	  'age': 6,
 	  'weight': 1.5,
-	  'hunger': False,
+	  'hungry': False,
 	  'photo': '<:3 )~~~~',
 	}
 	```
@@ -314,7 +314,7 @@ What if we want to feed all the pets in our list? If we want to run a function o
 ```py
 for pet in pets:
 	feed(pet)
-print pet
+  print pet
 ```
 
 Tweet a screenshot of your pypets [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world!
@@ -323,7 +323,7 @@ BONUS:
 Once you have completed the steps above you should feel free to add additional features that you design yourself! Here are some ideas to get you started:
 
 - keep track of a health points variable
-- create a boolean variable for sleep
+- create a boolean variable for asleep
 - create a `play()` function
 - create a list of phrases your python can say at random
 - get input from the user with `raw_input()`
