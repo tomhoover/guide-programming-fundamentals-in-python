@@ -20,11 +20,11 @@ Many Python programmers (aka “Pythonistas”) love this language because it ma
 
 ##Setup
 
-To get started we'll need a "development environment", aka *a place to write and execute code*. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get you up and running. Nitrous is a cloud-based developer environment that works really well for programming in python. Since Nitrous.io is a web application it won't matter whether you have a mac or windows or even Linux computer to run and test your code. Follow the instructions below to set up your Nitrous.io Development Environment.
+To get started we'll need a "development environment", aka *a place to write and execute code*. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get you up and running. Nitrous is a cloud-based developer environment that works really well for programming in python. Since Nitrous.io is a web application, it won't matter whether you have a Mac, Windows, or even a Linux computer to run and test your code. Follow the instructions below to set up your Nitrous.io Development Environment.
 
 1. Go to [Nitrous.io](https://www.nitrous.io/) and create an account. *NOTE: You will have to check your email and activate your account before you can sign in.*
-2. Once you have signed in and confirmed your email click the "open dashboard" button on their [homepage](https://www.nitrous.io/). You should be prompted to create your first Nitrous "box" aka developer environment.
-3. First choose "Python/Django" as your template. Next you can rename your box anything you like or just leave it as is. Finally don't worry about the optional section that says "Download a GitHub repo". See image below as an example:
+2. Once you have confirmed your email and signed in, click the "open dashboard" button on their [homepage](https://www.nitrous.io/). You should be prompted to create your first Nitrous "box" aka developer environment.
+3. First choose "Python/Django" as your template. Next you can rename your box to anything you like or just leave it as is. Finally, don't worry about the optional section that says "Download a GitHub repo". Here's an example:
 
 	![](http://i.imgur.com/gBTqt8X.png)
 
@@ -39,7 +39,7 @@ To get started we'll need a "development environment", aka *a place to write and
 
 ##Running Python for the first time
 
-Here is a GIF demonstrating how to run your first python program. Feel free to either skip down and read the steps in the text below or take a look at the GIF first.
+Here is a GIF demonstrating how to run your first python program. Feel free to either skip down and read the steps in the text below.
 
 ![](http://i.imgur.com/kDyVy2I.gif)
 
@@ -74,7 +74,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	```
 	Using an equals sign (`=`) sets a variable to a given value such as `name = 'Fluffy'`.
 	
-	Variables can store different types of data. In this case, `name` is something called a **string** because `'Fluffy'` has quotations around it. A **string** is just a set of characters surrounded by quotations (for example `'Bob'` or `'New York'`). *NOTE: Strings can use either single or double quotes in Python.* **Integers** on the other hand do not have quotations. Let’s look at some additional data types.
+	Variables can store different types of data. In this case, `name` is something called a **string** because `'Fluffy'` has quotations around it. A **string** is just a set of characters surrounded by quotations (for example `'Bob'`, `'New York'` or `'h4ck3r'`). *NOTE: Strings can use either single or double quotes in Python.* A string can also include numbers, so long as it's in between quotes. **Integers** on the other hand do not have quotations. Let’s look at some additional data types.
 	
 2. Create three additional variables to track `age`, `weight` and `hungry`.
 
@@ -87,7 +87,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	hungry = False
 	```
 	
-	The `age` variable is an **integer** and therefore must be a whole number. The `weight` variable is a **float**. Floats are a numbers that can have values after the decimal point.  The `hungry` variable is a a **Boolean**. Booleans store a value of either `True` or `False`. *NOTE: Don't use quotations for these three data types.*
+	The `age` variable is an **integer** and therefore must be a whole number. The `weight` variable is a **float**. Floats are a numbers that can have values after the decimal point.  The `hungry` variable is a a **Boolean**. Booleans store a value of either `True` or `False`. *NOTE: Don't use quotations for these three data types, otherwise they'd all be considered strings.*
 
 3. Choose your Pypet's "photo". We've included a few options you can use below, but feel free to customize it. 
 *NOTE: Keep your Pypet's "photo" to just one line as it will make the initial steps easier to follow.*
@@ -147,7 +147,7 @@ We need a way to tell Python that all of these variables represent one cat (or d
 
 ![](http://i.imgur.com/bsj0LGE.gif)
 
-1. Place your variables in a dictionary. Try using different values then the ones we have here!
+1. Place your variables in a dictionary. Try using different values than the ones we have here.
 
 	```py
 	print 'Welcome to Pypet!'
@@ -161,9 +161,9 @@ We need a way to tell Python that all of these variables represent one cat (or d
 	}
 
 	```
-	Here we’ve created a dictionary called `cat`. Each line contains a different cat attribute. Attributes have both a *key* (ex. `'name'`, `'weight'`, `'age'` etc) as well as a *value* (ex. `'Fluffy'`, `True`, `9.6` etc). Unlike assigning variables which use an equals sign (`name = 'Fluffy'`), dictionary attributes use a colon (`'name':'Fluffy'`).
+	Here we’ve created a dictionary called `cat`. Each line contains a different cat attribute. Attributes have both a *key* (ex. `'name'`, `'weight'`, `'age'` etc) as well as a *value* (ex. `'Fluffy'`, `True`, `9.6` etc). Unlike assigning variables which use an equals sign (`name = 'Fluffy'`), dictionary attributes use a colon (`'name':'Fluffy'`) and need to include a comma `,` after each value (`'name':'Fluffy',`.
 
-2. Add a print statement to view your Pypet in the console. Don't forget to first save your file and then run your file in the console by typing "python pypet.py" and pressing enter.
+2. Add a print statement to view your Pypet in the console. Don't forget to first save your file and then run your file in the console by typing `python pypet.py` and pressing enter.
 
 	```py
 	cat = {
@@ -197,7 +197,7 @@ Make sure to take another look at the GIF above if you get stuck.
 
 ##Feeding your Pypet - Functions
 
-Let's “feed” our Pypet using a Python function. A [function](http://www.tutorialspoint.com/python/python_functions.htm) is a block of organized, reusable code that is used to perform a single action. First, we must define our function — `feed` — which changes our Pypet’s `hungry` attribute to `False` to show that it is no longer hungry.
+Let's “feed” our Pypet using a Python function. A [function](http://www.tutorialspoint.com/python/python_functions.htm) is a block of organized, reusable code that is used to perform a single action. First, we must define our function — `feed` — which changes our Pypet’s `hungry` attribute to `False`, indicating it's no longer hungry.
 
 1. Create this simple function by writing the following below your other code.
 
@@ -261,7 +261,7 @@ But what if our Pypet is not hungry? We need to take into account whether or not
 
 ![](http://i.imgur.com/Axp2Smt.gif)
 
-If the Pypet is hungry the program will set his hungry variable to `False` and increase his weight. If the Pypet is not hungry then it will print `The Pypet is not hungry` in the console.
+If the Pypet is hungry the program will set his hungry variable to `False` and increase his weight. If the Pypet is not hungry then it will print `The Pypet is not hungry!` in the console.
 
 1. Add an if statement inside of your function.
 
@@ -277,7 +277,7 @@ If the Pypet is hungry the program will set his hungry variable to `False` and i
 	feed(cat)
 	print cat
 	```
-	Notice that we use two equals sign (`==`) to check a condition (for example `pet['hungry'] == True`). Only if the condition is not met the code beneath the `else:` will execute.
+	Notice that we use two equals sign (`==`) to check a condition (for example `pet['hungry'] == True`). Only if the condition is not met the code beneath the `else:` will execute. Remember, one equal sign is used to assigned a value to a variable (`pet['hungry'] = True` makes our Pypet hungry), two equal signs are used to check if a condition is true (`pet['hungry'] == True` checks whether our Pypet is hungry).
 
 2. Add another `feed(cat)` below your function and try feeding the cat twice to see if the function worked!
 
@@ -285,9 +285,17 @@ If you get stuck don't forget to look back at the GIF above!
 
 ##Friends for your Pypet - Lists
 
-1. Let’s create another Pypet using a dictionary. Add (or customize) the following code below your previous Pypet dictionary.
+1. Let’s create another Pypet using a dictionary. Add (or customize) the code below under your previous Pypet dictionary.
 
 	```py
+	cat = {
+	  'name': 'Fluffy',
+	  'hungry': True,
+	  'weight': 9.5,
+	  'age': 5,
+	  'photo': '(=^o.o^=)__',
+	}
+
 	mouse = {
 	  'name': 'Mouse',
 	  'age': 6,
@@ -317,10 +325,12 @@ for pet in pets:
   	print pet
 ```
 
-Tweet a screenshot of your Pypets [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world!
+**NOTE FOR TATI: I would expand this a bit, like you did when defining functions, explaining a bit more about for loops.**
+
+Tweet a screenshot of your Pypets and tweet them [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world!
 
 BONUS: 
-Once you have completed the steps above you should feel free to add additional features that you design yourself! Here are some ideas to get you started:
+Once you have completed the steps above, you should feel free to add additional features that you design yourself! Here are some ideas to get you started:
 
 - keep track of a health points variable
 - create a boolean variable for asleep
@@ -330,7 +340,7 @@ Once you have completed the steps above you should feel free to add additional f
 
 ##Conclusion & Resources
 
-Congrats for reaching the end of this guide! For your convenience we've placed a final version of our Pypet [on GitHub](https://github.com/Thinkful/pypet/blob/master/pypet.py) if you would like to take a look at the code. If you are stuck tweet [@Thinkful](https://twitter.com/thinkful) and we'd love to help. Feel free to customize any or all of your project and try new things.
+Congrats for reaching the end of this guide! For your convenience we've placed a final version of our Pypet [on GitHub](https://github.com/Thinkful/pypet/blob/master/pypet.py), if you would like to take a look at the code. If you are stuck tweet [@Thinkful](https://twitter.com/thinkful) and we'd love to help. Feel free to customize any or all of your project and try new things.
 
 This guide is just the beginning of what you can do with Python. If you enjoyed the work you’ve done here, go through any of the additional resources below. 
 
