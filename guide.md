@@ -243,7 +243,7 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 	
 ## If Statements
 
-But what if our pypet is not hungry? We need to take into account whether or not the hungry variable is set to `True` or `False`. In order to know whether our Pypet is hungry, we are going to use an **if statement**.
+But what if our pypet is not hungry? We need to take into account whether or not the hungry variable is set to `True` or `False`. In order to know whether our Pypet is hungry, we are going to use an **if statement**. In Python, if statements check to see whether a specific condition (such as whether or not `hunger = True`). Take a look at the GIF below to get an idea of what this looks like.
 
 ![](http://i.imgur.com/Axp2Smt.gif)
 
@@ -253,7 +253,7 @@ If the Pypet is hungry the program will set his hungry variable to `False` and i
 
 	```py
 	def feed(pet):
-		if pet['hunger']:
+		if pet['hunger'] == True:
 			pet['hunger'] = False
 			pet['weight'] = pet['weight'] + 1
 		else:
@@ -263,6 +263,7 @@ If the Pypet is hungry the program will set his hungry variable to `False` and i
 	feed(cat)
 	print cat
 	```
+	Notice that we use two equals sign (`==`) to check a conditon (for example `pet['hunger'] == True`). Only if the condition is not met the code beneath the `else:` will execute.
 
 2. Add another `feed(cat)` below your function and try feeding the cat twice to see if the function worked!
 
