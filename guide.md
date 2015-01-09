@@ -181,81 +181,75 @@ NOTE TO SELF: DO YOU WANT TO SHOW THEM HOW TO ACCESS ATTRIBUTES??
 
 Make sure to take another look at the gif above if you get stuck.
 
-##Feeding your Pypet - Functions and If Statements
+##Feeding your Pypet - Functions
 
 Let's “feed” our pypet using a Python function. A [function](http://www.tutorialspoint.com/python/python_functions.htm) is a block of organized, reusable code that is used to perform a single action. First, we must define our function — `feed` — which changes our pypet’s `hunger` attribute to `False` to show that it is no longer hungry.
 
 1. Create this simple function by writing the following below your other code.
 
+	```py
+	def feed(pet):
+			pet['hunger'] = False
+	```
+	
+	There are a couple of things to take note of here. By writing `def feed(pet):` you defining a function called `feed` that accepts one variable `pet`. You'll also notice we indent the next line `pet['hunger'] = False`. *NOTE: In python the contents of a function must be indented.*
+
+2. Add `feed(cat)` below your function to use the `feed` function on your Pypet, in this case `cat`.
+
+	```py
+	def feed(pet):
+			pet['hunger'] = False
+	
+	feed(cat)
+	```
+
+	By calling `feed(cat)` we are passing the variable `cat` into the function in place of `pet`. `pet` acts as a placeholder for whatever variable we decide to pass into the function.
+
+	We should also increase the Pypet’s weight a bit since it has eaten.
+
+3. Add `cat['weight'] = cat['weight'] + 1` to your `feed` function.
+
+	```py
+	def feed(cat):
+			cat['hunger'] = False
+			cat['weight'] = cat['weight'] + 1
+	```
+
+	Floats and integers can be increased by using this notation. Try setting your original pypet’s hungry variable to True and then call the function by writing `feed(cat)` at the bottom like so:
+
+	```py
+	print 'Welome to Pypet!'
+	
+	cat = {
+	  'name': 'Fluffy',
+	  'hungry': True,
+	  'weight': 9.5,
+	  'age': 5,
+	  'photo': '(=^o.o^=)__',
+	}
+	
+	print cat
+	
+	def feed(pet):
+			pet['hunger'] = False
+			cat['weight'] = cat['weight'] + 1
+	
+	feed(cat)
+	
+	print cat
+	```
+
+	When the cat is printed out the second time his weight attribute will have increased.
+	
+## If Statements
+
+But what if our pypet is not hungry? We need to take into account whether or not the hungry variable is set to `True` or `False`. In order to know whether our Pypet is hungry, we are going to use an if statement. 
+
+If the Pypet is hungry the program will set his hungry variable to `False` and increase his weight. If the Pypet is not hungry then it will print `The Pypet is not hungry` in the console.
+
+1. Add an if statement inside of your function.
+
 ```py
-def feed(pet):
-		pet['hunger'] = False
-```
-
-There are a couple of things to take note of here. By writing `def feed(pet):` you defining a function called `feed` that accepts one variable `pet`. You'll also notice we indent the next line `pet['hunger'] = False`. *NOTES:In python the contents of a function must be indented.*
-
-2. Add `feed(cat)` below your function to use the `feed` function you Pypet, in this case `cat`.
-
-```py
-def feed(pet):
-		pet['hunger'] = False
-
-feed(cat)
-```
-
-By calling `feed(cat)` we are passing the variable cat into the function in place of `pet`. `pet` acts as a placeholder for whatever variable we decide to pass into the function.
-
-__Note for Tati:__ We haven't introduced how to access values inside an object, there's a gap here. Also, we haven't talked about indentation and how that works in Python. Lastly, we haven't mentioned that the quotes (e.g. 'feed()') call a function. It might be useful to show a "hungry cat" before feeding it, feed it, and then show that it's no longer hungry.
-
-We should also increase the Pypet’s weight a bit since it has eaten. Floats and integers can be increased by using the following notation.
-
-```py
-def feed(cat):
-		cat['hunger'] = False
-		cat['weight'] = cat['weight'] + 1
-```
-
-Try setting your original pypet’s hungry variable to True and then call the function by writing feed(cat) at the bottom like so:
-
-```py
-print 'Welome to Pypet!'
-
-cat = {
-  'name': 'Fluffy',
-  'hungry': True,
-  'weight': 9.5,
-  'age': 5,
-  'photo': '(=^o.o^=)__',
-}
-
-print cat
-
-def feed(pet):
-		pet['hunger'] = False
-		cat['weight'] = cat['weight'] + 1
-
-feed(cat)
-
-print cat
-```
-
-__Note for Tati:__ What's the expected results here? Show it. What might go wrong as I do this? Help me debug popular errors.
-
-When the cat is printed out the second time his weight attribute will have increased. But what if our pypet is not hungry? We need to take into account whether or not the hungry variable is set to True or False.
-
-In order to know whether our Pypet is hungry, we are going to use an if statement. If the Pypet is hungry the program will set his hungry variable to False and increase his weight. If the Pypet is not hungry then it will print ‘The Pypet is not hungry' in the console. Try feeding the cat twice, to make sure that the if statement worked
-
-```py
-print 'Welome to Pypet!'
-
-cat = {
-  'name': 'Fluffy',
-  'hunger': True,
-  'weight': 9.5,
-  'age': 5,
-  'photo': '(=^o.o^=)__',
-}
-
 def feed(pet):
 	if pet['hunger']:
 		pet['hunger'] = False
@@ -265,11 +259,9 @@ def feed(pet):
 
 print cat
 feed(cat)
-feed(cat)
 print cat
 ```
-
-__Note for Tati:__ what is this gif showing me? All I see is you writing code... not sure what the gif is showing me since it prints that the pypet is not hungry twice (your fish hungry is set to false in the example).
+Add another `feed(cat)` below your function to try feeding the cat twice to see if the function worked!
 
 ![](http://i.imgur.com/Axp2Smt.gif)
 
