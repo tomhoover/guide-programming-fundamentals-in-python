@@ -156,7 +156,7 @@ We need a way to tell Python that all of these variables represent one cat (or d
 	```
 	Here we’ve created a dictionary called `cat`. Each line contains a different cat attribute. Attributes have both a *key* (ex. `'name'`, `'weight'`, `'age'` etc) as well as a *value* (ex. `'Fluffy'`, `True`, `9.6` etc). Unlike assigning variables, which use an equals sign (`name = 'Fluffy'`), dictionary attributes use a colon and need to include a comma `,` after each value (`'name':'Fluffy',`)
 
-2. Add a print statement to view your Pypet in the console. Don't forget to first save your file and then run your file in the console by typing `python pypet.py` and pressing enter.
+2. Add a print statement to view your new Pypet dictionary in the console.
 
 	```py
 	cat = {
@@ -170,7 +170,7 @@ We need a way to tell Python that all of these variables represent one cat (or d
 	print cat
 	```
 
-3. Print your Pypet's name. Add `print cat['name']` to your code.
+3. Print your Pypet's name and photo. You can access variables in an array by using the format `dictionary['attribute']` such as `cat['name']`.
 
 	```py
 	cat = {
@@ -181,10 +181,12 @@ We need a way to tell Python that all of these variables represent one cat (or d
 	  'photo': '(=^o.o^=)__',
 	}
 
+	print 'Hello ' + cat['name']
+	print cat['photo']
+
 	print cat
-	print cat['name']
 	```
-	You can access variables in an array by using the format `dictionary['attribute']` such as `cat['name']`.
+	 Don't forget to first save your file and then run your file in the console by typing `python pypet.py` and pressing enter.
 
 Make sure to take another look at the GIF above if you get stuck.
 
