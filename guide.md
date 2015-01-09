@@ -6,7 +6,7 @@ Approximate time ~ 2 hours
 
 ###About this Guide:
 
-This guide was created for complete beginners and will teach you programming fundamentals in Python. Following a [project-driven learning philosophy](http://blog.thinkful.com/post/100829199278/project-based-v-s-project-driven-learning) you will learn as you build your own project. There will be GIFs and screenshots throughout this guide to make everything as clear as possible.
+This guide was created for complete beginners (i.e. with no programming or computer science experience) and will teach you programming fundamentals in a language called [Python](https://en.wikipedia.org/wiki/Python_(programming_language)). Following a [project-driven learning philosophy](http://blog.thinkful.com/post/100829199278/project-based-v-s-project-driven-learning) you will learn as you build your own project. There will be GIFs and screenshots throughout this guide to make everything as clear as possible.
 
 As you complete this guide you'll be creating a virtual pet we'll call "Pypet" (a "Python-pet"). Remember [tamagochis](https://en.wikipedia.org/wiki/Tamagotchi)? Or if you were born in the 90s then think POKEMON! With each new Python programming concepts you learn you will add new features to your "Pypet".
 
