@@ -64,7 +64,9 @@ If you're stuck, take another look at the GIF above or tweet [@Thinkful](https:/
 
 ###Variables
 
-Variables are a way of storing information in Python. Below we'll create different variables for our pypet such as name, weight, etc.
+Variables are a way of storing information in Python. Below we'll create different variables for our pypet such as name, weight, etc. Below is a GIF that shows how you will create variables for your Pypet in this section. You can refer back to this as you follow along with the instructions below.
+
+![](http://i.imgur.com/6o6eiaA.gif)
 
 1. Create a variable called `name` equal to `'Fluffy'` (or `'Spike'` or `'Sir Patrick'`).
 	
