@@ -279,6 +279,20 @@ If the Pypet is hungry the program will set his hungry variable to `False` and i
 
 2. Add another `feed(cat)` below your function and try feeding the cat twice to see if the function worked!
 
+	```
+	def feed(pet):
+	    if pet['hungry'] == True:
+        	pet['hungry'] = False
+	        pet['weight'] = pet['weight'] + 1
+	    else:
+	        print 'The Pypet is not hungry!'
+	
+	print cat
+	feed(cat)
+	print cat
+	feed(cat)
+	```
+
 If you get stuck don't forget to look back at the GIF above!
 
 ##Friends for your Pypet - Lists
