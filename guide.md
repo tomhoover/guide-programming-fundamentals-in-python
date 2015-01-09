@@ -177,7 +177,21 @@ We need a way to tell Python that all of these variables represent one cat (or d
 	print cat
 	```
 
-NOTE TO SELF: DO YOU WANT TO SHOW THEM HOW TO ACCESS ATTRIBUTES??
+3. Print your Pypet's name. Add `print cat['name']` to your code.
+
+	```py
+	cat = {
+	  'name': 'Fluffy',
+	  'hunger': True,
+	  'weight': 9.5,
+	  'age': 5,
+	  'photo': '(=^o.o^=)__',
+	}
+
+	print cat
+	print cat['name']
+	```
+	You can access variables in an array by using the format `dictionary['attribute']` such as `cat['name']`.
 
 Make sure to take another look at the gif above if you get stuck.
 
