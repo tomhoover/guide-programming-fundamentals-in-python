@@ -59,7 +59,7 @@ Here is a GIF demonstrating how to run your first python program. Feel free to e
 
 You’ve just written your first print statement. [*Celebratory dance time*](http://media.giphy.com/media/VMqSqPxywbtCM/giphy.gif). The print statement is a python function which prints things in the console — it's very handy for learning Python and debugging your code. 
 
-If you're stuck, take another look at the GIF above or tweet [@Thinkful](https://twitter.com/thinkful) for help.
+If you're stuck, take another look at the GIF above.
 
 ##Creating your Pypet
 
@@ -329,9 +329,7 @@ for pet in pets:
   	print pet
 ```
 
-**NOTE FOR TATI: I would expand this a bit, like you did when defining functions, explaining a bit more about for loops.**
-
-Take a screenshot of your Pypets and tweet them [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world!
+Take a screenshot of your Pypets and tweet them [@Thinkful](https://twitter.com/thinkful) so I can share your creation with the world!
 
 ##BONUS: 
 
