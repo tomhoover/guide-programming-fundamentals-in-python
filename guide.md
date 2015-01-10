@@ -351,7 +351,7 @@ Free Resources:
 
 - [The Hitchhiker's Guide to Python!](http://docs.python-guide.org/en/latest/)
 - [Coursera - Interactive Python](https://www.coursera.org/course/interactivepython)
-- [Learn Python the Hard Way](http://learnpythonthehardway.org/)
+- [Learn Python the Hard Way](http://learnpythonthehardway.org/book)
 - [Invent With Python](http://inventwithpython.com/)
 - [Green Tea Press](http://greenteapress.com/)
 - [Codecademy](http://www.codecademy.com/#!/exercises/0)
