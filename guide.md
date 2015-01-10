@@ -244,7 +244,7 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 	
 	def feed(pet):
 			pet['hungry'] = False
-			cat['weight'] = cat['weight'] + 1
+			pet['weight'] = pet['weight'] + 1
 	
 	print cat
 	feed(cat)
