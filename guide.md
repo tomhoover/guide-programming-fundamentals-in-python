@@ -219,12 +219,12 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 
 	We should also increase the Pypet’s weight a bit since it has eaten.
 
-3. Add `cat['weight'] = cat['weight'] + 1` to your `feed` function.
+3. Add `pet['weight'] = pet['weight'] + 1` to your `feed` function.
 
 	```py
-	def feed(cat):
-			cat['hungry'] = False
-			cat['weight'] = cat['weight'] + 1
+	def feed(pet):
+			pet['hungry'] = False
+			pet['weight'] = pet['weight'] + 1
 	```
 
 	Use this notation to increase floats and integers. 
